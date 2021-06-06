@@ -1,0 +1,395 @@
+.form textarea, .form input[type="text"], .form input[type="password"], .form select {
+    border: 1px solid #9E9E9E;
+    /*border-radius: 4px 4px 4px 4px;*/
+    padding: 4px;
+}
+
+.customform fieldset {
+  margin-bottom: 15px;
+}
+.customform legend {
+  padding: 0 2px;
+  font-weight: bold;
+}
+.customform label {
+  display: inline-block;
+  line-height: 16px;
+  vertical-align: top;
+  font-size: 12px;
+  font-family:'Open Sans', sans-serif;
+  color: #222222;  
+}
+
+.customform label span a{
+  display: block;
+  line-height: 13px;
+  vertical-align: top;
+  font-size: 11px;
+}
+.customform label span {
+  display: block;
+  line-height: 13px;
+  vertical-align: top;
+  font-size: 11px;
+}
+.customform fieldset ol {
+  margin: 0;
+  padding: 0;
+}
+.customform fieldset > ol > li {
+  list-style: none;
+  padding: 3px;
+  margin: 0px;
+  border-bottom: 1px dotted #e3e3e3;
+}
+.customform fieldset > ol > li.no-border {
+  border-bottom: 0px none;
+}
+
+.customform fieldset > ol > li:first-child{
+	padding-top:8px;
+}
+
+.customform fieldset fieldset {
+  border: none;
+  margin: 3px 0 0;
+}
+.customform fieldset fieldset legend {
+  padding: 0 0 5px;
+  font-weight: normal;
+}
+.customform fieldset fieldset label {
+  width: auto;
+}
+
+.customform label {
+  width: 260px; /* Width of labels */
+	text-align: right;
+	margin-right: 15px;
+  
+}
+
+.customform fieldset fieldset span.labelspace{
+	display: inline-block;
+	width: 275px; /* .customform label Width plus 15px (margin space) */
+}
+.customform fieldset fieldset label, .customform fieldset label.label-input {
+	text-align: right;
+	margin-right: 15px;
+	width: auto;
+}
+
+.customform textarea, .customform input[type="text"], .customform input[type="password"], .customform select {
+	margin-top: 1px;
+  border: 1px solid #cccccc;
+  padding: 2px;
+/*  
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+*/	
+}
+
+.customform input[type="button"], .customform input[type="submit"], .customFormButton{
+	min-width: 120px;
+	background-color: #ededed;
+	border: 1px solid #c9c9c9;
+	color: #333;
+/*
+	text-shadow: #d6d6d6 1px 1px 0px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+*/
+	cursor: pointer;
+	display: inline-block;
+/*
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	*/
+	text-transform: uppercase;
+	font-size:16px !important;
+	
+	margin: 2px;
+	padding: 4px 12px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: center;
+	zoom: 1;
+}
+.customform input[type="button"]:hover, .customform input[type="submit"]:hover, .customFormButton:hover{
+	background: #0084D0;
+	border-bottom: 1px solid #DDD;
+	color: #fff;
+/*	text-shadow: #000 1px 1px 1px; */
+}
+
+.customform fieldset p{
+	font-size: 12px !important;
+	height: 15px !important;
+	line-height: 16px !important;
+	margin: 0px !important;
+	padding: 3px !important;
+}
+
+.customform2 {
+  margin-top: 20px;
+}
+
+.customform2 fieldset li {
+  list-style: none;
+  padding: 3px;
+  margin: 6px 0px;
+  border: 0px none #fff;
+}
+
+.customform2 label {
+  width: 180px; /* Width of labels */
+}
+
+.customform .fieldFocus{
+	border: 1px solid #0084D0 !important;
+}
+
+.customform .fieldError{
+	border: 1px solid #FF4D4D !important;
+}
+
+.customform .fieldError.fieldFocus{
+	border: 1px solid #8B008B !important;
+}
+
+/* captcha */
+.captchaFieldset{
+	margin-top:20px;
+}
+
+.captchaBlock{
+	display:inline-block;
+}
+
+.captcha{
+	width:155px;
+	display:block;
+	margin-top:6px !important;
+}
+
+
+
+div.formLine {
+	display: block;
+	padding: 0px;
+	margin-bottom: 4px;
+}
+
+div.formLineLabel {
+	display:-moz-inline-stack; /* FF2 fix coz it does not support inline-block */
+	display:inline-block; /* supported by FF3+ and IE8+ */
+	zoom:1; *display:inline; /*  IE6 & IE7 hack coz they do not support inline-block (zoom trigger hasLayout and * target IE6/7) */
+	padding: 0px;
+	width: 136px;
+	vertical-align: top;
+}
+
+div.formLineData {
+	display:-moz-inline-stack; /* FF2 fix coz it does not support inline-block */
+	display:inline-block; /* supported by FF3+ and IE8+ */
+	zoom:1; *display:inline; /*  IE6 & IE7 hack coz they do not support inline-block (zoom trigger hasLayout and * target IE6/7) */
+	padding: 0px;
+	vertical-align: top;
+}
+.ui-form-input {
+/*
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+*/
+	border: 1px solid #e3e3e3;
+	padding: 0px 5px !important;
+	color: #333333;
+	height: 24px;
+	line-height: 24px;
+	background-color: #fff;
+}
+
+
+.ui-form-date {
+	height: 20px;
+background-color: #e3e3e3;
+/*	
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+*/
+border: 1px solid #e3e3e3;
+	padding: 0px 5px 0px 5px !important;
+	margin-bottom: 5px;
+}
+
+.ui-form-select {
+	color: #a6aab2;
+	border: 1px solid #e3e3e3;
+	padding: 0px 10px 0px 2px;
+	background-color: transparent;
+}
+
+/* Para prevenir bug no firefox, que não esconde seta
+Nota: width do div deve ser = (width select -20px - padding select)! */
+div.ui-form-select-hack {
+	overflow:hidden;
+	background: #dfe1e4 url('/images/arrows_up_down.png') no-repeat right center;
+}	
+
+.ui-form-datelabel {
+	font-size: 13px;
+	display: inline-block;
+	border: 0px solid #ffffff;
+	padding: 0px 5px 0px 3px !important;
+	color: #a6aab2;
+	text-align: left;
+}
+
+/*
+
+.formDark .ui-form-input {
+border: 1px solid #dfe1e4;
+padding: 0px 5px !important;
+color: #a6aab2;
+height: 20px;
+line-height: 20px;
+background-color: #dfe1e4;
+}	
+
+*/
+
+.ui-form-date > * {
+	display:-moz-inline-stack; /* FF2 fix coz it does not support inline-block */
+	display:inline-block; /* supported by FF3+ and IE8+ */
+	zoom:1; *display:inline; /*  IE6 & IE7 hack coz they do not support inline-block (zoom trigger hasLayout and * target IE6/7) */
+	vertical-align: middle;
+}
+
+
+.ui-form-textarea {
+/*
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+*/
+border: 1px solid #e3e3e3;
+padding: 0px 5px !important;
+margin-bottom: 5px;
+color: #5a86a3;
+height: 34px;
+background-color: #fff;
+}
+
+form.edit div.button{
+	display: block !important;
+	text-align: left;
+}
+
+form.edit fieldset legend {
+	padding: 6px 0px 4px 0px;
+	color: #0d2a4a;
+	font-weight: bold;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+form.edit input[type="button"]:hover, form.edit input[type="submit"]:hover, form.edit input[type="reset"]:hover {
+color: #ffffff;
+/*
+text-shadow: #000 1px 1px 1px;
+*/
+}
+form.edit input[type="button"], form.edit input[type="submit"], form.edit input[type="reset"], form button.ui-form-button-reset, form button.ui-form-button-submit {
+min-width: 85px;
+color: #ffffff;
+/*
+text-shadow: #333 1px 1px 0px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+*/
+cursor: pointer;
+display: inline-block;
+font-size: 14px;
+font-weight: normal;
+margin-left: 4px;
+padding: 10px 12px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+vertical-align: middle;
+text-align: center;
+zoom: 1;
+}
+
+input.ui-form-button-reset, form button.ui-form-button-reset{
+	background-color: #c0c5c4;
+	border: 1px solid #c0c5c4;
+}
+input.ui-form-button-reset:hover, form button.ui-form-button-reset:hover{
+	background-color: #cbcfce;
+	border: 1px solid #c0c5c4;
+	
+}
+input.ui-form-button-submit, form button.ui-form-button-submit{
+	background-color: #b10000;
+	border: 1px solid #b10000;
+}
+input.ui-form-button-submit:hover, form button.ui-form-button-submit:hover{
+	background-color: #c70f0d;
+	color: #fff;
+	border: 1px solid #b10000;
+}
+
+.watermark {
+	color: #999;
+}
+
+.formDark .ui-form-input {
+/*
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+*/
+	border: 1px solid #dfe1e4;
+	padding: 0px 5px !important;
+	color: #a6aab2;
+	height: 15px;
+	line-height: 15px;
+	background-color: #dfe1e4;
+}
+
+.formDark .ui-form-textarea {
+	border: 1px solid #dfe1e4;
+	color: #a6aab2;
+	background-color: #dfe1e4;
+	margin-bottom: 0px;
+}
+
+
+.buttonsArea{
+	text-align:right;
+}
+
+.buttonsArea input{
+	min-width: 85px;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: normal;
+	margin-left: 4px;
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: lowercase;
+	vertical-align: middle;
+	text-align: center;
+	zoom: 1;
+}
+

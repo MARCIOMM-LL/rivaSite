@@ -1,0 +1,39 @@
+.info_pedido_formulario{
+	margin:2rem 0; padding:1rem; background-color:#efefef;
+	font-size: 1.4rem;
+	line-height: 100%;
+	color: #444;
+}
+
+.info_pedido_formulario h3{
+	font-size: 1.5rem;
+	line-height: 100%;
+}
+.info_pedido_formulario p{
+	font-size: 1.4rem;
+	line-height: 100%;
+	padding: 0 0 0.6rem 0;
+}
+.info_pedido_formulario br{
+   display: block;
+   margin: 0.2rem 0;
+   line-height:1rem;
+   content: " ";
+}
+
+#form_rgpd_consent p{
+	padding-bottom: 0.6rem;
+}
+
+#form_rgpd_consent p span{
+	display:-moz-inline-stack; /* FF2 fix coz it does not support inline-block */
+	display:inline-block; /* supported by FF3+ and IE8+ */
+	zoom:1; *display:inline; /*  IE6 & IE7 hack coz they do not support inline-block (zoom trigger hasLayout and * target IE6/7) */
+	padding-right: 2.4rem;
+}
+
+#form_rgpd_consent p label{
+	padding-left: 0.2rem;
+	padding-right: 0.6rem;
+}
+

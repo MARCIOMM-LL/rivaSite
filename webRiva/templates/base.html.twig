@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Nostri">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="copyright" content="©2021 Riva Africa.">
+        <meta name="robots" content="index, follow">
+        <meta name="rating" content="general">
+        <meta name="expires" content="never">
+        <meta name="cache-control" content="private">
+        <meta name="revisit-after" content="7 days">
+        <meta name="distribution" content="global">
+        <meta name="document-state" content="Dynamic">
+        <meta name="google" content="notranslate">
+        <meta property="og:title" content="RIVA - Africa">
+        <meta property="og:image" content="https://riva-office.com/images/logo_index.png">
+
+        <title>{% block title %}RIVA - Africa{% endblock %}</title>
+        {# Run `composer require symfony/webpack-encore-bundle`
+           and uncomment the following Encore helpers to start using Symfony UX #}
+        {% block stylesheets %}
+
+            <link rel="stylesheet" href="{{ asset('/assets/css/swiper.css') }}">
+            <link rel="stylesheet" href="{{ asset('/assets/css/index.css') }}">
+            <link rel="stylesheet" href="{{ asset('/assets/css/formularios.css') }}">
+            <link rel="stylesheet" href="{{ asset('/assets/css/media_queries.css') }}">
+            <link rel="stylesheet" href="{{ asset('/assets/css/global.css') }}">
+            <link rel="stylesheet" href="{{ asset('/assets/css/menu_mobile.css') }}">
+            <link rel="stylesheet" href="{{ asset('/assets/css/pedido_proposta.css') }}">
+            <link rel="stylesheet" href="{{ asset('/assets/css/standard.css') }}">
+            <link rel="stylesheet" href="{{ asset('/assets/css/superfish.css') }}">
+            <link rel="stylesheet" href="{{ asset('/assets/css/chosen.min.css') }}">
+
+            <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet" />
+
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
+
+        {% block javascripts %}
+
+            <script type="text/javascript" src="{{ asset('/assets/js/jquery-1.9.1.min.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('/assets/js/modernizr.custom.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('/assets/js/jquery.mmenu.min.all.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('/assets/js/jquery.swiper.min.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('/assets/js/jquery.modal.min.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('/assets/js/chosen.jquery.min.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('/assets/js/jquery.bpopup.min.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('/assets/js/pedido_proposta.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('/assets/js/global.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('/assets/js/index.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('/assets/js/index.js') }}"></script>
+
+
+
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+    </body>
+</html>

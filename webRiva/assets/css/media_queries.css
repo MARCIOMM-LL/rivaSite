@@ -1,0 +1,1661 @@
+@media screen and (max-width: 1620px) {
+	#bgvid{
+		max-width:1400px;
+	}
+
+	#destaques_slide1, #destaques_slide2, #destaques_slide3, #destaques_slide4, #destaques_slide5, #destaques_slide6, #destaques_slide7, #destaques_slide8, #destaques_slide9, #destaques_slide10, #destaques_slide11, #destaques_slide12{
+		background-size:cover;
+	}
+
+	#catalogues h2{
+		font-size: 5rem;
+		line-height: 6rem;
+	}
+
+	#itens_catalogue{
+		max-width: 107rem;
+		padding: 18rem 0rem 0rem 7rem;
+	}
+
+	#itens_travail{
+		padding: 17rem 0rem 0rem 0rem;
+	}
+
+	.tit_nav_travail{
+		padding-top:0rem;
+		height:5rem;
+	}
+
+	#img_travail{
+		width:4rem;
+		height:4rem;
+	}
+
+	.img_nav_travail{
+		width:4rem;
+		height:4rem;
+	}
+
+	#travail_conteudo {
+		padding-top:18rem;
+	}
+
+	#travail_conteudo h2{
+		font-size: 3rem;
+		line-height: 3rem;
+	}
+
+
+
+
+@media screen and (max-width: 1440px) {
+	/*header{
+		left:5rem;
+		background: url(/images/bg_menu.png) no-repeat 25rem 0%;
+	}*/
+
+	h1{
+		font-size:2.5rem;
+		line-height:3rem;
+	}
+
+
+
+	.bloco_texto_destaque{
+		width:60.7rem;
+		height:25rem;
+	}
+
+	.textos_destaques{
+		margin-left:5rem;
+	}
+
+	.textos_destaques h1{
+		padding:4.5rem 4.5rem 2rem 0rem;
+	}
+
+	#destaques_slide1{
+		background-size:cover;
+	}
+
+	/*#destaques_slide1{
+		background: url(/images_user/destaques/bg_destaques_index_turismo.jpg) no-repeat 30rem top;
+		background-size:contain;
+	}*/
+
+	#titulo_distingue h2{
+		font-size:2.5rem;
+		line-height:3rem;
+	}
+
+	#titulo_oquefazer h2{
+		font-size:2.5rem;
+		line-height:3rem;
+	}
+
+	/*#distingue_consultoria{
+		width:30rem;
+	}*/
+
+	.distingue_pontos_fortes p{
+		padding-right:0;
+	}
+
+	#peca_simulacao{
+		padding-left:5rem;
+	}
+
+	#peca_simulacao_texto p{
+		padding-bottom:1rem;
+	}
+
+	#noticias_index_esq{
+		width:30rem;
+		padding-left:5rem;
+	}
+
+	.noticias_index_conteudo_texto{
+		width:30.5rem;
+	}
+
+	#noticias_index_conteudo{
+		max-width: 76%;
+	}
+
+	#img_noticia_index{
+		width:25rem;
+		height:25rem;
+	}
+
+	.noticias_index_conteudo_texto{
+		width:30rem;
+	}
+
+	.noticias_index_conteudo_texto h4{
+		width:25rem;
+	}
+
+	.noticias_index_conteudo_texto p{
+		width:25rem;
+	}
+
+	#seguros_index_particulares_dir p{
+		font-size:1.7rem;
+		line-height:3rem;
+	}
+
+	#seguros_index_empresas_esq p{
+		font-size:1.7rem;
+		line-height:3rem;
+	}
+
+	.bloco_titulo{
+		width:25rem;
+		height:25rem;
+	}
+
+	#rodape_texto p{
+		font-size: 1.7rem;
+		line-height: 3rem;
+	}
+
+	#bgvid{
+		max-width:1300px;
+	}
+
+
+
+
+	ul.sf-menu > li{
+		padding:0rem;
+	}
+
+	.sf-menu li ul li{
+		font-size:1.2rem;
+	}
+
+
+	#numeros_texto_wrapper{
+		padding-top:5%;
+	}
+
+	#standard_1monitor_texto{
+		padding-left:5%;
+	}
+
+	#destaques_packs_separador{
+		height:90vh;
+	}
+
+	#destaques_packs_titulo{
+		padding-top:6rem;
+	}
+
+	#travail_effectue{
+		padding-left:5rem;
+	}
+
+	#itens_travail, #itens_catalogue{
+		max-width: 91rem;
+		padding:14rem 0rem 0rem 3rem;
+	}
+
+	.destaques_packs_noticias_conteudo_texto{
+		margin:1rem 0rem;
+	}
+
+	#catalogues, #devis{
+		padding-left:5rem;
+	}
+
+	#catalogues h2, #devis h2{
+		font-size: 5rem;
+		line-height: 6rem;
+	}
+
+	.ui-input-style1, .ui-input-style3{
+		width: 75rem;
+	}
+
+	#itens_travail, #itens_catalogue {
+		padding: 14rem 0rem 0rem 0rem;
+	}
+
+
+	#img_travail_index{
+		width: 19rem;
+	}
+
+	#itens_travail p{
+		font-size: 1.5rem;
+	}
+
+	.button-style1 {
+		font-size: 3rem;
+		line-height: 3rem;
+		padding: 1rem 2rem 1.2rem 2rem;
+		margin:1rem 0rem;
+	}
+
+	#catalogues_conteudo span {
+		font-size: 1.5rem;
+	}
+
+	#box-pcontacto-content{
+		padding-top:14rem;
+	}
+
+	#produits_conteudo{
+		padding-top: 15rem;
+	}
+
+	#itens_produits {
+		max-width: 88rem;
+		padding: 11rem 0rem 0rem 0rem;
+	}
+
+	#img_gd_travail_item{
+		width:50rem;
+	}
+
+	#produits{
+		padding-left:5rem;
+	}
+
+	#travail_conteudo h2{
+		font-size: 3rem;
+		line-height: 3rem;
+	}
+
+	#travail_conteudo{
+		padding-top: 18rem;
+	}
+
+	#travail_effectue h2, #produits h2 {
+	    font-size: 3rem;
+		line-height: 3rem;
+	}
+
+	#travail_conteudo {
+		padding-top: 15rem;
+	}
+
+	#produits_conteudo .button-style1,  #travail_conteudo .button-style1{
+		font-size: 2rem;
+		line-height: 1rem;
+		padding: 1rem 2rem 1.2rem 2rem;
+		margin: 0.5rem 0rem;
+	}
+
+	.img_nav_travail{
+		margin-bottom:0.5rem;
+	}
+
+	.tit_nav_travail{
+		height:4.5rem;
+	}
+
+}
+
+
+@media only screen and (max-width: 1281px) {
+	.button-style1{
+		margin:0;
+	}
+
+	#bgvid{
+		padding-top:150px;
+		max-width:1260px;
+	}
+
+	#travail_conteudo{
+		width:32rem;
+	}
+	#travail_effectue h2, #produits h2 {
+	    font-size: 3rem;
+		line-height: 3rem;
+	}
+
+	#travail_conteudo {
+		padding-top: 15rem;
+	}
+
+	#produits_conteudo .button-style1,  #travail_conteudo .button-style1{
+		font-size: 2rem;
+		line-height: 1rem;
+		padding: 1rem 2rem 1.2rem 2rem;
+		margin: 0.5rem 0rem;
+	}
+
+	.img_nav_travail{
+		margin-bottom:0.5rem;
+	}
+
+	.tit_nav_travail{
+		height:4.5rem;
+	}
+
+	.item_travail{
+		padding-bottom:1rem;
+	}
+
+	#itens_travail, #itens_catalogue {
+		max-width: 90rem;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 1025px) {
+	.wrapper{
+		width:102rem;
+	}
+
+	.panel{
+		height:auto;
+		min-height:76.8rem;
+	}
+
+	#wrapper-menu-logo{
+		margin-left:0rem;
+	}
+
+	#savoir_faire, #services, #destaques_slide1, #travail_effectue, #catalogues, #devis, #contacts{
+		height:auto;
+		padding-left:4rem;
+	}
+
+	#destaques_slide1, #destaques_slide2, #destaques_slide3, #destaques_slide4, #destaques_slide5, #destaques_slide6, #destaques_slide7, #destaques_slide8, #destaques_slide9, #destaques_slide1, #destaques_slide10, #destaques_slide11, #destaques_slide12 {
+		padding-left:4rem;
+	}
+	header{
+		left:6rem;
+		height:11rem;
+	}
+
+	#conteudo_produits{
+		padding-left:0rem;
+	}
+
+
+
+	#div-menu-mobile{
+		margin-top:2.5rem;
+	}
+
+	#wrapper-menu-logo {
+		margin-top:2rem;
+	}
+
+	h2{
+		font-size:5rem;
+		line-height:5rem;
+		padding-bottom:1rem;
+	}
+
+	.textos_destaques h2 span{
+		font-size:1.7rem;
+		line-height:2rem;
+		padding-bottom:1rem;
+	}
+
+	.textos_destaques p{
+		font-size:1.5rem;
+		line-height:1.7rem;
+		padding-bottom:1rem;
+	}
+
+	.button-style1 {
+		font-size:2rem;
+		margin-top:2rem;
+		padding: 1.8rem 3rem 2rem 2rem;
+	}
+
+	#bgvid{
+		padding-top:150px;
+		max-width:1000px;
+	}
+
+	#rodape{
+		padding-left:6rem;
+	}
+
+	#distingue{
+		padding:11rem 0rem 0rem 6rem;
+	}
+
+	#destaque1{
+		width:35%;
+	}
+
+	.textos_destaques {
+		width:40rem;
+		padding: 1.5rem;
+		margin:32rem 5rem 0rem 0rem;
+	}
+
+	.textos_destaques h2{
+		font-size: 3rem;
+		line-height: 3rem;
+	}
+
+	#botao_escuro{
+		margin-bottom:2rem;
+	}
+
+	#itens_travail, #itens_catalogue {
+		max-width:66rem;
+	}
+
+	#box-pcontacto-content{
+		max-width:66rem;
+	}
+
+	.nome-apartir {
+		padding-top: 2rem;
+		vertical-align: top;
+		color:#fff;
+		text-align:left;
+	}
+
+	.nome-elemento {
+		font-size: 2rem;
+		line-height: 1.5rem;
+		padding: 0;
+		display:block;
+		vertical-align: top;
+		font-weight: 300;
+	}
+
+	.apartirde{
+		font-size: 1.6rem;
+		line-height: 2rem;
+		padding: 0;
+		display:block;
+		vertical-align: top;
+		font-weight: 300;
+	}
+
+	.elemento {
+		display: inline-block;
+		vertical-align: top;
+		padding-top: 0rem;
+	}
+
+	.valor-elemento {
+		font-size: 3.5rem;
+		line-height:3.5rem;
+		padding: 0.5rem 0 0 0rem;
+		vertical-align: top;
+		font-weight: 300;
+	}
+
+	#titulo_destaque p {
+		padding-right:2.5rem;
+	}
+
+	#titulo_destaque span {
+		font-size:1.5rem;
+	}
+
+	.bloco_texto_destaque {
+		width: 59.7rem;
+		height: 20rem;
+	}
+
+	.bloco_texto_destaque p{
+		font-size:2.5rem;
+	}
+
+
+	#destaques_slide1 {
+		background-size:cover;
+	}
+
+	/*#distingue_consultoria{
+		width:20rem;
+	}*/
+
+	#titulo_distingue h2 {
+		padding: 2.5rem 0rem 1.5rem 2.5rem;
+	}
+
+	#titulo_distingue p {
+		padding-left:2.5rem;
+	}
+
+	/*.distingue_pontos_fortes {
+		padding: 2rem 2.5rem 0rem 2.5rem;
+	}
+
+	#titulo_distingue span {
+		font-size:1.5rem;
+		line-height:1.5rem;
+	}*/
+
+	#titulo_oquefazer {
+		padding: 0rem 0rem 3rem 2.5rem;
+	}
+
+	#titulo_oquefazer h2{
+		line-height:2.5rem;
+		padding-bottom:1rem;
+	}
+
+	#titulo_oquefazer span {
+		font-size:1.5rem;
+		line-height:1.5rem;
+	}
+
+	#oquefazer_consultoria {
+		height:20rem;
+	}
+
+	.oquefazer_pontos_fortes {
+	    padding: 2.5rem 1rem 0rem 8rem;
+	}
+
+	#acidente_automovel {
+		background: url(/images/icon_oquefazer_automovel.jpg) no-repeat 8% 20%;
+	}
+
+	#acidente_pessoal {
+		background: url(/images/icon_oquefazer_pessoal.jpg) no-repeat 8% 20%;
+	}
+
+	#acidente_trabalho {
+		background: url(/images/icon_oquefazer_trabalho.jpg) no-repeat 8% 20%;
+	}
+
+	.oquefazer_pontos_fortes .button-style1 {
+		background: url(/images/seta_azul.png) no-repeat 100% 50%;
+		font-weight:400;
+	}
+
+	#peca_simulacao {
+		padding:15rem 0 0 5rem;
+	}
+
+	#peca_simulacao_texto {
+		padding: 2rem 3.5rem 2rem 3.5rem;
+	}
+
+	#peca_simulacao_texto p {
+		font-size:1.8rem;
+		line-height:2.5rem;
+	}
+
+	#peca_simulacao_texto .button-style1 {
+		font-size: 2rem;
+		line-height: 2rem;
+	}
+
+	#noticias_index_esq {
+		width: 20rem;
+		padding: 12rem 0rem 0rem 0rem;
+
+	}
+
+	#noticias_index_conteudo {
+		max-width: 80%;
+		padding: 12rem 1rem 0rem 2rem;
+	}
+
+	.noticias_index_conteudo_texto {
+		width: 25rem;
+	}
+
+	#img_noticia_index {
+		width: 20rem;
+		height: 20rem;
+	}
+
+	.noticias_index_conteudo_texto h4 {
+		width: 20rem;
+	}
+
+	.noticias_index_conteudo_texto p {
+		width: 20rem;
+	}
+
+	#seguros_index_particulares_dir p, #seguros_index_empresas_esq p {
+		line-height: 2.5rem;
+	}
+
+	#titulo_seguros {
+	    padding: 2.5rem 2.5rem 1rem 0rem;
+	}
+
+	#titulo_seguros h2 {
+		padding: 0rem 0rem 1rem 0rem;
+		font-size: 2.5rem;
+	}
+
+	#titulo_seguros p {
+		padding-left:1.5rem;
+	}
+
+	#rodape_texto {
+		padding:0rem 10% 0rem 15%;
+	}
+
+
+
+	.button-style1 {
+		font-size: 2.5rem;
+		/*padding: 1rem 3rem 1rem 0rem;*/
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.ui-input-style1{
+		width:43rem;
+	}
+
+	.ui-input-style3{
+		width:43rem;
+	}
+
+	#rodape_newsletter {
+		padding-left:0;
+	}
+
+	#rodape_contactos_esq {
+		padding:0 4rem 0 0;
+	}
+
+	#rodape_contactos_dir {
+		padding:0;
+	}
+
+	#imagem_conteudo{
+		width:100%;
+	}
+
+	#itens_produits{
+		max-width: 63rem;
+	}
+
+	#produits{
+		height:auto;
+		padding-bottom:4rem;
+	}
+
+	#produits h2{
+		font-size:4rem;
+		line-height:5rem;
+	}
+
+	.item_produits, #img_produto{
+		width:14rem;
+		height:14rem;
+	}
+
+	#travail_conteudo{
+		width:30rem;
+	}
+
+
+	#conteudo_travail{
+		max-width:70rem;
+	}
+
+	.item_travail_pagina {
+		width: 9rem;
+		height: 9rem;
+	}
+
+	#conteudo_travail h2{
+		padding-bottom:0rem;
+	}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1023px) {
+	body {
+		overflow: inherit;
+	}
+
+	header{
+		left:0;
+		height:5.5rem;
+	}
+
+
+	h1{
+		font-size:2.5rem;
+		line-height:3rem;
+		padding-bottom:1rem;
+	}
+
+	h2{
+		font-size:3.5rem;
+		line-height:4rem;
+	}
+
+	h3{
+		font-size:1.7rem;
+		line-height:2rem;
+	}
+
+	p{
+		font-size:1.8rem;
+	}
+
+	.wrapper{
+		padding:1rem 3rem 0rem 1rem;
+	}
+	
+	.ui-input-style1, .ui-input-style3{
+		width:27rem;
+	}
+
+	#content-main-menu{
+		display:none;
+	}
+
+	#div-menu-mobile{
+		display: inline-block;
+		width: 5%;
+		min-width:3rem;
+		margin:0rem 0rem 0rem 0rem;
+	}
+
+	#box-pcontacto-content{
+		padding:0rem;
+	}
+
+	#wrapper-menu-logo{
+		margin:0;
+		width:68%;
+		text-align:left;
+	}
+
+	#content-main-menu-logo-texto p{
+		font-size:1.7rem;
+		line-height:1.7rem;
+	}
+
+	#img-logo{
+		width:60%;
+		height:auto;
+	}
+
+	#savoir_faire{
+		min-height:50rem;
+		background: url('/images/bg_index_distingue.jpg') no-repeat top center;
+		background-size:cover;
+	}
+
+	.conteudo_esq{
+		position:relative;
+		padding-top:21rem;
+		width:100%;
+
+	}
+	
+	#apoios-feder {
+		max-width: 100%;
+	}
+
+	#conteudo_produits .conteudo_esq{
+		padding-top:2rem;
+	}
+
+
+
+	.conteudo_esq p {
+		font-weight: 300;
+		font-size: 2rem;
+		line-height: 2.5rem;
+	}
+
+	.button-style1 {
+		padding: 0.8rem 2rem 1rem 2rem;
+		line-height: 2.5rem;
+	}
+
+	.button-style1 span {
+		font-size: 2rem;
+		line-height: 2rem;
+	}
+
+	.tit_nav_travail{
+		width: 11rem;
+		padding-top:0;
+	}
+
+	#travail_conteudo{
+		width:98%;
+	}
+
+	#travail_conteudo p{
+		font-weight: 300;
+		font-size: 1.3rem;
+		line-height: 1.5rem;
+	}
+
+	#travail_conteudo span {
+		font-size: 1rem;
+		line-height: 1.3rem;
+	}
+
+
+
+
+
+
+
+	#distingue{
+		padding:5.5rem 0rem 0rem 0rem;
+	}
+
+	#distingue_consultoria{
+		background:#fff url('/images/bg_index_distingue.jpg') no-repeat top center;
+		background-size:contain;
+		width:100%;
+		padding:2rem 3rem;
+	}
+
+	.distingue_pontos_fortes{
+		padding:0.5rem 0 0 0;
+	}
+
+	.distingue_pontos_fortes h3{
+		font-size:1.5rem;
+		line-height:1.7rem;
+	}
+
+	.distingue_pontos_fortes p{
+		font-size:1.5rem;
+		line-height:1.7rem;
+	}
+
+	#texto_pontos_fortes p{
+		padding-top:20rem;
+		font-size:1.7rem;
+		line-height:2rem;
+	}
+
+	#pf-exportation {
+		margin-top:0rem;
+		padding-right:4rem;
+		background:url(/images/icon-exportation-mobile.jpg) no-repeat center right;
+	}
+
+	#pf-personnalisation {
+		width:18rem;
+		background:url(/images/icon-personnalisation-mobile.jpg) no-repeat center right;
+	}
+
+	#pf-fabricant{
+		width:18rem;
+		background:url(/images/icon-fabricant-mobile.jpg) no-repeat center right;
+		margin-bottom:0rem;
+	}
+
+	#pf-stock{
+		padding-right:4rem;
+		background:url(/images/icon-stock-mobile.jpg) no-repeat center right;
+	}
+
+
+	.swiper-container-horizontal > .swiper-pagination{
+		display:none;
+	}
+
+	#travail_effectue_conteudo, #catalogues_conteudo, #travail_conteudo {
+		padding-top: 12rem;
+	}
+
+	#travail_effectue h2, #produits h2 {
+	    font-size: 3.5rem;
+		line-height: 4rem;
+	}
+
+	#itens_travail, #itens_catalogue{
+		padding:0rem;
+	}
+
+	.item_travail {
+		display: inline-block;
+		vertical-align: top;
+		padding: 0rem 1rem 3rem 0rem;
+		width: 45%;
+	}
+
+	.item_travail_pagina {
+		display: inline-block;
+		vertical-align: top;
+		padding: 0rem 1rem 3rem 0rem;
+	}
+
+	#img_gd_travail_item{
+		width:100%;
+		height:auto;
+	}
+
+	#img_travail_index {
+		width:14rem;
+		height:auto;
+	}
+
+	.ui-input-style3{
+		width:27rem;
+	}
+	
+	#box-pcontacto-content {
+		width:27rem;
+	}
+
+	#produits{
+		height:auto;
+		padding:0rem 0rem 2rem 2rem;
+	}
+
+	#produits_conteudo{
+		padding-top: 10rem;
+		width:100%;
+	}
+
+
+	#produits_conteudo span{
+		font-size: 1.4rem;
+		line-height: 1.5rem;
+	}
+
+
+	#itens_produits{
+		padding:0;
+	}
+
+	.item_produits{
+		width:14rem;
+		height:14rem;
+	}
+
+	#img_produto{
+		width:14rem;
+		height:14rem;
+	}
+
+	#itens_produits h2{
+		padding:0;
+	}
+
+
+	#destaques_slide1 {
+		margin-top:0rem;
+		background: #333 url('/images_user/destaques/bg_destaques_index_meubles_bureau.jpg') no-repeat 0% 100%;
+		background-size:contain;
+		height:auto;
+		min-height:63rem;
+		padding:0;
+	}
+
+	#destaques_slide2 {
+		margin-top:0rem;
+		background: #333 url('/images_user/destaques/bg_destaques_index_meubles_acier.jpg') no-repeat 0% 100%;
+		background-size:contain;
+		height:auto;
+		min-height:63rem;
+		padding:0;
+	}
+
+	#destaques_slide3 {
+		margin-top:0rem;
+		background: #333 url('/images_user/destaques/bg_destaques_index_cacifos.jpg') no-repeat 0% 100%;
+		background-size:contain;
+		height:auto;
+		min-height:63rem;
+		padding:0;
+	}
+
+	#destaques_slide4 {
+		margin-top:0rem;
+		background: #333 url('/images_user/destaques/bg_destaques_index_cortica.jpg') no-repeat 0% 100%;
+		background-size:contain;
+		height:auto;
+		min-height:63rem;
+		padding:0;
+	}
+
+	#destaques_slide5 {
+		margin-top:0rem;
+		background: #333 url('/images_user/destaques/bg_destaques_index_biblioteca.jpg') no-repeat 0% 100%;
+		background-size:contain;
+		height:auto;
+		min-height:63rem;
+		padding:0;
+	}
+
+	#destaques_slide6 {
+		margin-top:0rem;
+		background: #333 url('/images_user/destaques/bg_destaques_index_hotel.jpg') no-repeat 0% 100%;
+		background-size:contain;
+		height:auto;
+		min-height:63rem;
+		padding:0;
+	}
+
+	#destaques_slide7 {
+		margin-top:0rem;
+		background: #333 url('/images_user/destaques/bg_destaques_index_quarto.jpg') no-repeat 0% 100%;
+		background-size:contain;
+		height:auto;
+		min-height:63rem;
+		padding:0;
+	}
+
+	#destaques_slide8 {
+		margin-top:0rem;
+		background: #333 url('/images_user/destaques/bg_destaques_index_comercial.jpg') no-repeat 0% 100%;
+		background-size:contain;
+		height:auto;
+		min-height:63rem;
+		padding:0;
+	}
+
+	#destaques_slide9 {
+		margin-top:0rem;
+		background: #333 url('/images_user/destaques/bg_destaques_index_latao.jpg') no-repeat 0% 100%;
+		background-size:contain;
+		height:auto;
+		min-height:63rem;
+		padding:0;
+	}
+
+	#destaques_slide10 {
+		margin-top:0rem;
+		background: #333 url('/images_user/destaques/bg_destaques_index_teto.jpg') no-repeat 0% 10%;
+		background-size:contain;
+		height:auto;
+		min-height:63rem;
+		padding:0;
+	}
+
+	#destaques_slide11 {
+		margin-top:0rem;
+		background: #333 url('/images_user/destaques/bg_destaques_index_armario.jpg') no-repeat 0% 100%;
+		background-size:contain;
+		height:auto;
+		min-height:63rem;
+		padding:0;
+	}
+
+	#destaques_slide12 {
+		margin-top:0rem;
+		background: #333 url('/images_user/destaques/bg_destaques_index_porta.jpg') no-repeat 0% 100%;
+		background-size:contain;
+		height:auto;
+		min-height:63rem;
+		padding:0;
+	}
+
+	#destaque1{
+		width:100%;
+		background:#1b1f24;
+		height:70vh;
+		margin-top:19rem;
+	}
+
+	.textos_destaques{
+		padding:2rem;
+		margin:0;
+		width:100%;
+		height:23rem;
+	}
+
+
+	.button-style1{
+		font-size:2rem;
+	}
+
+	#botao_escuro{
+		margin-top:0rem;
+		margin-bottom:2rem;
+	}
+
+	#chaises {
+		background: url('/images_user/destaques/bg_destaques_index_cadeiras.jpg') no-repeat top left;
+		background-size:contain;
+		margin-top:5.5rem;
+		padding-top:24rem;
+	}
+
+	#categoria_conteudo h2{
+		padding-bottom:0.5rem;
+
+	}
+
+	#categoria_conteudo p{
+		font-size:1.4rem;
+		line-height:1.6rem;
+	}
+
+	.nome-apartir-pagina {
+		display:none;
+	}
+
+	.categoria-foto{
+		padding-top:0.5rem;
+	}
+
+
+	#conteudo_produits{
+		bottom:0;
+		padding:1.5rem 0 21rem 1.5rem;
+		position:relative;
+	}
+
+	.conteudo_esq_produtos{
+		position:relative;
+		padding:0;
+	}
+
+
+
+	/* 1 pagina */
+
+
+
+
+
+	#proposta_destaques_index{
+		margin-top:1rem;
+	}
+
+	.obreiros_consultoria{
+		height:auto;
+	}
+
+
+	.rodape_esq_dir{
+		width:100%;
+	}
+
+
+
+	#rodape_wrapper{
+		background:url('/images/bg_footer.jpg') repeat top center;
+	}
+
+	#rodape_titulo{
+		padding-top:6rem;
+	}
+
+	#rodape_newsletter{
+		padding:5rem 1rem 0rem 2rem;
+		width:95%;
+	}
+
+	#rodape_newsletter .ui-input-style1 {
+		display:inline-block;
+		width: 60%;
+		padding: 1.9rem 3rem 1.7rem 1rem;
+	}
+
+	#submit-newsletter {
+		display:inline-block;
+		margin: 0rem 0rem;
+		width: 7rem;
+		text-align: right;
+		padding: 1.8rem 1rem 1.7rem 1rem;
+		font-size: 1.5rem;
+	}
+
+	#rodape_newsletter p{
+		font-size: 1.1rem;
+		font-weight: 700;
+		line-height: 1.4rem;
+		padding-bottom: 0rem;
+	}
+
+	#rodape_contactos_esq {
+		padding:3rem;
+	}
+
+	#rodape_contactos_dir{
+		width:90%;
+		padding:3rem;
+	}
+
+	#rodape_texto{
+		height:80vh;
+	}
+
+
+
+
+	#imagem_conteudo_mobile{
+		width:100%;
+	}
+
+
+
+
+	#dadosContactos{
+		width:95%;
+	}
+
+	.w350{
+		width:100% !important;
+	}
+
+	#mapaGoogle{
+		width:100%;
+	}
+
+	 #img_redes{
+		 width:25px;
+		 height:25px;
+	 }
+
+	 #box-pcontacto{
+		 width:90%;
+		 height:80vh;
+	 }
+
+	 #box-pcontacto #box-pcontacto-header h2{
+		 font-size:14px;
+	 }
+
+	 #box-pcontacto #nome, #box-pcontacto #empresa, #box-pcontacto #email, #box-pcontacto #telefone, #box-pcontacto #localidade, #box-pcontacto #observacoes {
+		 width:90%;
+	 }
+
+	 .comment{
+		 display:none;
+	 }
+
+	#rodape_wrapper_mobile{
+		display:block;
+		background:url('/images/bg_footer.jpg') no-repeat top center;
+		background-size:cover;
+	}
+
+	 #rodape_wrapper{
+		display:none;
+	}
+
+	.textos_destaques h2{
+		font-size: 3rem;
+		line-height: 3rem;
+		padding-top:0rem;
+	}
+
+	.nome-apartir{
+		padding-top:1rem;
+	}
+
+	.swiper-button-next.swiper-button-custom{
+		top:0%;
+	}
+
+	.swiper-button-prev.swiper-button-custom{
+		top:0%;
+		left:0rem;
+	}
+
+
+	.ctg-next{
+		top:61%;
+		width:35%;
+		right:10rem;
+	}
+
+	.ctg-prev{
+		top:61%;
+		width:8rem;
+		left:8.5rem;
+	}
+
+	#panel-oquefazer{
+		display:none
+	}
+
+	#rodape{
+		padding:0;
+		margin:7rem 0 0 0;
+	}
+
+	#rodape_consultoria{
+		background:#1b1f24;
+		width:100%;
+		padding:2rem;
+		margin:0;
+	}
+
+	#rp-prix {
+		width:17rem;
+	}
+
+	#rp-frais {
+		width:17rem;
+	}
+
+	.categoria {
+		padding:7rem 0rem 0rem 0rem;
+	}
+
+	#categoria_conteudo{
+		width:100%;
+		padding:0rem 2rem;
+		margin-top:17rem;
+	}
+
+	#cadeiras{
+		background:url('/images_user/destaques/bg_destaques_index_cadeiras.jpg') no-repeat top left;
+		background-size:contain;
+	}
+
+	#secretarias{
+		background:url('/images_user/destaques/bg_destaques_index_secretarias.jpg') no-repeat top left;
+		background-size:contain;
+	}
+
+	#mesas_reuniao{
+		background:url('/images_user/destaques/bg_destaques_index_mesas_reuniao.jpg') no-repeat top left;
+		background-size:contain;
+	}
+
+	#cacifos{
+		background:url('/images_user/destaques/bg_destaques_index_cacifos.jpg') no-repeat 0% 9%;
+		background-size:contain;
+	}
+
+	#balcao_recepcao{
+		background:url('/images_user/destaques/bg_destaques_index_balcao_recepcao.jpg') no-repeat top left;
+		background-size:contain;
+	}
+
+	#escritorio_completo{
+		background:url('/images_user/destaques/bg_destaques_index_escritorio_completo.jpg') no-repeat top left;
+		background-size:contain;
+	}
+
+	#armarios{
+		background:url('/images_user/destaques/bg_destaques_index_armarios.jpg') no-repeat 0% 4%;
+		background-size:contain;
+	}
+
+	#estantes{
+		background:url('/images_user/destaques/bg_destaques_index_estantes.jpg') no-repeat 0% 3%;
+		background-size:contain;
+	}
+
+	#biombos{
+		background:url('/images_user/destaques/bg_destaques_index_biombos.jpg') no-repeat top left;
+		background-size:contain;
+	}
+
+	#beliches{
+		background:url('/images_user/destaques/bg_destaques_index_beliches.jpg') no-repeat 0% 3%;
+		background-size:contain;
+	}
+
+	#img-ctg{
+		width:100%;
+	}
+
+	.distingue_pontos_fortes h3{
+		text-align:right;
+	}
+
+	.textos_destaques p{
+		display:none;
+	}
+
+	#img-popup{
+		width:100%;
+		height:auto;
+	}
+
+	#rodape_consultoria{
+		height:auto;
+	}
+
+
+	#wrapper-menu-logo{
+		width:57%;
+	}
+
+	.panel{
+		height:auto;
+	}
+
+	#distingue{
+		background:#fff;
+		min-height:0rem;
+		height:auto;
+	}
+
+	#distingue_consultoria{
+		padding:2rem;
+		height:auto;
+	}
+
+	#pf-exportation{
+		width:11rem;
+		margin-right:2rem;
+	}
+
+	#pf-stock{
+		width:11rem;
+		margin-right:2rem;
+	}
+
+	#pf-personnalisation {
+		width:14rem;
+	}
+
+	#pf-fabricant {
+		width:14rem;
+	}
+
+	#texto_pontos_fortes p{
+		padding-top:18rem;
+	}
+
+	#destaques_slide1{
+		margin-top:2rem;
+		min-height:0;
+	}
+
+	.nome-apartir{
+		margin-top:0;
+		padding-top:0;
+	}
+
+
+	.textos_destaques h1{
+		padding-top:25%;
+	}
+	#numeros_texto_wrapper{
+		height:80vh;
+	}
+
+	#imagem_conteudo_mobile{
+		width:100%;
+	}
+
+	.textos_destaques h2{
+		padding-top:0rem;
+	}
+
+	#destaque1{
+		padding-top:1rem;
+	}
+
+
+	.button-style1{
+		margin-top:1rem;
+		padding:1rem 2rem;
+	}
+
+	#rodape{
+		margin-top:0;
+		height:auto;
+		min-height:0;
+		background: #1b1f24;
+	}
+
+	#rodape_consultoria{
+		height:auto;
+	}
+
+	.swiper-button-next.swiper-button-custom {
+		top: 53%;
+	}
+
+	.swiper-button-prev.swiper-button-custom {
+		top: 53%;
+	}
+
+	#destaques_slide1, #destaques_slide2, #destaques_slide3, #destaques_slide4, #destaques_slide5, #destaques_slide6, #destaques_slide7, #destaques_slide8, #destaques_slide9, #destaques_slide10{
+		margin-top:0rem;
+	}
+
+	#img-popup{
+		width:100%;
+		height:auto;
+	}
+
+	#box-pcontacto-content {
+		padding: 0rem;
+	}
+
+
+
+	.panel{
+		height:auto;
+		min-height:0;
+	}
+	
+	#contactos_conteudo{
+		width:100%;
+	}
+	
+	.fundo_paineis{
+		height:auto;
+		padding:0rem 1rem 0rem 2rem;
+		min-height:40rem;
+	}
+	
+	.fundo_paineis h2{
+		color:#303030;
+	}
+	
+	.fundo_paineis p{
+		color:#303030;
+	}	
+	
+	.fundo_paineis .button-style1{
+		color:#303030;
+		border-color:#303030;
+	}
+	
+	#quadros{
+		background:url('/images/bg_index_quadros.jpg') no-repeat top left;		
+		background-size:contain;
+	}
+	
+	#papelaria{
+		background:url('/images/bg_index_papelaria.jpg') no-repeat top left;		
+		background-size:contain;
+	}
+
+	#videoprojetores{
+		background:url('/images/bg_index_projetores.jpg') no-repeat top left;		
+		background-size:contain;
+	}
+
+	#savoir_faire{
+		background:url('/images/bg_index_distingue.jpg') no-repeat top left;		
+		background-size:contain;
+		min-height:80rem;	
+		padding-left:2rem;	
+		width:100%;		
+	}
+	
+	.conteudo_esq_riva p{
+		color:#303030;		
+	}
+
+	#services{
+		background:url('/images/bg_index_services.jpg') no-repeat top left;		
+		background-size:contain;		
+	}
+	
+	.conteudo_esq{
+		padding-top:25rem;
+	}
+	
+	.conteudo_esq_riva{
+		width:94%;
+	}
+	
+	.conteudo_esq_riva p{
+		font-size:1.7rem;
+		line-height:2rem;
+	}	
+	
+	.links_riva{
+		display:block;
+		height:5rem;
+		padding:1rem 0rem 0rem 5rem;
+		font-size:1.4rem;
+	}
+	
+	.links_riva a{	
+		color:#336699;
+	}
+	
+	#links_riva_office{
+		background: url(/images/logo-riva-office.jpg) no-repeat top left;
+		background-size:4rem;
+	}
+	
+	#links_riva_mde {
+		background: url(/images/logo-riva-mde.jpg) no-repeat top left;
+		background-size:4rem;		
+	}
+
+	#links_riva_cacifos {
+		background: url(/images/logo-riva-cacifos.jpg) no-repeat top left;	
+		background-size:4rem;		
+	}
+	
+	#links_riva_cadeiras {
+		background: url(/images/logo-riva-cadeiras.jpg) no-repeat top left;	
+		background-size:4rem;		
+	}
+}

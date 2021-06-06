@@ -1,0 +1,507 @@
+.overlay{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	display: none;
+}
+
+.modal{
+	display: none;
+	padding:0 20px 20px;
+	overflow:auto;
+	z-index:1001;
+	position:absolute;
+	width: 614px;
+	min-height: 300px;
+}
+
+.modal .chosen-container{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid transparent;
+	color: #5a86a3;
+	background-color: #fff;
+}
+
+.modal .chosen-container-single .chosen-single {
+	border: 1px solid transparent;
+}
+.modal .chosen-container-multi .chosen-choices {
+	border: 1px solid transparent !important;
+	box-shadow: none !important;
+	background-image: none !important;
+}
+
+.modal .chosen-container .chosen-results {
+max-height: 200px !important;
+}
+
+/* BOX MODAL PEDIDO GLOBAL */
+.box-modal{
+	height: 480px;
+	padding: 10px;
+	background:#ededed;
+	border: 1px solid #d3d3d1;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 2px #d3d3d1;
+	-moz-box-shadow: 0px 0px 2px #d3d3d1;
+	box-shadow: 0px 0px 2px #d3d3d1;
+}
+
+
+.box-modal .box-modal-header{
+	width: 100%;
+	height: 60px;
+	margin-bottom: 4px;
+	border-bottom: 1px solid #d3d3d1;
+}
+
+.box-modal .box-modal-header h2{
+	font-size: 22px;
+	line-height: 20px;
+	padding: 5px 0px;
+	text-transform: uppercase;
+}
+
+.box-modal #closeBtn {
+	background-image: url('/assets/css/images/bt_close.png');
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+	height: 35px;
+	width: 35px;
+}
+
+.box-modal h3 {
+	padding: 12px 0px 6px 12px;
+	font-size: 20px;
+}
+
+.box-modal .ui-input-style1{
+	height: 30px;
+	line-height:26px;
+}
+
+.box-modal select.ui-input-style1{
+	height: 32px;
+	line-height:22px;
+	padding: 5px 10px !important;
+}
+
+.modal .button-style4 {
+    display: inline-block;
+	min-width: 8rem;
+    margin: 0.8rem 0rem;
+    padding: 0.2rem 1.4rem 0.6rem 1.4rem;
+    font: 1.6rem 'Arlon Light';
+	line-height: 100%;
+    border: 1px solid #ff0037;
+    color: #fff;
+    background-color: #ff0037;
+    cursor: pointer;
+	text-align: center;
+    text-decoration: none;
+}
+
+.modal .button-style4:hover {
+    background: transparent;
+    color: #ff0037;
+    border: 1px solid #ff0037;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.modal .button-style4:focus {
+	outline: 0;
+}
+
+.box-modal label{
+	display:-moz-inline-stack; /* FF2 fix coz it does not support inline-block */
+	display:inline-block; /* supported by FF3+ and IE8+ */
+	zoom:1; *display:inline; /*  IE6 & IE7 hack coz they do not support inline-block (zoom trigger hasLayout and * target IE6/7) */
+	width: 140px;
+	padding-right: 10px;
+	text-align:right;
+}
+#motivo_pedido_chosen input.chosen-search-input.default{
+	width: 100% !important;
+}
+.box-modal-bottom{
+	position: relative;
+}
+
+
+.box-modal-check{
+	position: relative;
+	display:-moz-inline-stack; /* FF2 fix coz it does not support inline-block */
+	display:inline-block; /* supported by FF3+ and IE8+ */
+	zoom:1; *display:inline; /*  IE6 & IE7 hack coz they do not support inline-block (zoom trigger hasLayout and * target IE6/7) */
+
+	width: 540px; /*500*/
+	height: 54px; /*54*/
+	vertical-align: bottom;
+}
+
+.box-modal-check p.box-modal-error-list{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding: 0px;
+	color: #f00;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+#send-proposta{
+	position: absolute;
+	bottom: 0px;
+	right: 5px;
+	vertical-align: bottom;
+}
+
+.box-pcontacto-bottom{
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+
+.box-modal-result{
+	display: none;
+}
+
+.box-modal-result h3 {
+	padding: 32px 0px 20px 12px;
+	font-size: 32px;
+}
+.box-modal-result p {
+	padding: 8px 12px 8px 12px;
+}
+
+.box-modal-result button {
+	margin: 4px 0px 0px 12px;
+}
+
+
+
+
+/* BOX PEDIDO CONTACTO */
+#box-pcontacto{
+	height: 620px;
+	padding: 10px;
+	background:#ededed;
+	border: 1px solid #d3d3d1;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 2px #d3d3d1;
+	-moz-box-shadow: 0px 0px 2px #d3d3d1;
+	box-shadow: 0px 0px 2px #d3d3d1;
+}
+
+
+#box-pcontacto #box-pcontacto-header{
+	width: 100%;
+	height: 60px;
+	margin-bottom: 4px;
+	border-bottom: 1px solid #d3d3d1;
+}
+
+#box-pcontacto #box-pcontacto-header h2{
+	font-size: 22px;
+	line-height: 20px;
+	padding: 5px 0px;
+	text-transform: uppercase;
+}
+
+#box-pcontacto #closeBtn{
+	background-image: url('/assets/css/images/bt_close.png');
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+	height: 35px;
+	width: 35px;
+}
+
+#box-pcontacto h3{
+	padding: 12px 0px 6px 12px;
+	font-size: 20px;
+}
+
+#box-pcontacto .ui-input-style1{
+	height: 30px;
+	line-height:26px;
+}
+
+#box-pcontacto select.ui-input-style1{
+	height: 32px;
+	line-height:22px;
+	padding: 5px 10px !important;
+}
+/*
+#box-pcontacto label{
+	display:-moz-inline-stack; /* FF2 fix coz it does not support inline-block * /
+	display:inline-block; /* supported by FF3+ and IE8+ * /
+	zoom:1; *display:inline; /*  IE6 & IE7 hack coz they do not support inline-block (zoom trigger hasLayout and * target IE6/7) * /
+	width: 140px;
+	padding-right: 10px;
+	text-align:right;
+}
+*/
+.small_text{
+	font-size: 1.2rem;
+	line-height: 1.2rem;
+}
+
+.small_text p{
+    padding-bottom: 0.2rem;
+    text-align: justify;
+}
+
+.small_text p span{
+	display:-moz-inline-stack; /* FF2 fix coz it does not support inline-block */
+	display:inline-block; /* supported by FF3+ and IE8+ */
+	zoom:1; *display:inline; /*  IE6 & IE7 hack coz they do not support inline-block (zoom trigger hasLayout and * target IE6/7) */
+	padding-right: 1rem;
+}
+#form_rgpd_consent p span{
+	display:-moz-inline-stack; /* FF2 fix coz it does not support inline-block */
+	display:inline-block; /* supported by FF3+ and IE8+ */
+	zoom:1; *display:inline; /*  IE6 & IE7 hack coz they do not support inline-block (zoom trigger hasLayout and * target IE6/7) */
+	padding-right: 2.4rem;
+}
+
+.small_text p label, #form_rgpd_consent p label{
+	padding-left: 0.2rem;
+	padding-right: 0.6rem;
+}
+
+
+#box-pcontacto-bottom{
+	position: relative;
+}
+
+
+#box-pcontacto-check{
+	position: relative;
+	display:-moz-inline-stack; /* FF2 fix coz it does not support inline-block */
+	display:inline-block; /* supported by FF3+ and IE8+ */
+	zoom:1; *display:inline; /*  IE6 & IE7 hack coz they do not support inline-block (zoom trigger hasLayout and * target IE6/7) */
+
+	width: 490px; /*500*/
+	height: 35px; /*54*/
+	vertical-align: bottom;
+}
+
+#box-pcontacto-check p#box-pcontacto-error-list{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding: 0px;
+	color: #f00;
+	font-size: 11px;
+	line-height: 12px;
+}
+
+#send-proposta{
+	position: absolute;
+	bottom: 0px;
+	right: 5px;
+	vertical-align: bottom;
+}
+
+.box-pcontacto-bottom{
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+
+#box-pcontacto-result{
+	display: none;
+}
+
+#box-pcontacto-result h3 {
+	padding: 32px 0px 20px 12px;
+	font-size: 32px;
+}
+#box-pcontacto-result p {
+	padding: 8px 12px 8px 12px;
+}
+
+#box-pcontacto-result button {
+	margin: 4px 0px 0px 12px;
+}
+
+
+#box-pcontacto #nome{
+	width: 540px;
+}
+
+#box-pcontacto #empresa{
+	width: 540px;
+}
+/*
+#box-pcontacto #servicos{
+	width: 320px;
+}
+*/
+#box-pcontacto #observacoes{
+	width: 540px;
+}
+#box-pcontacto #email{
+	width: 185px;
+	margin-right: 6px;
+}
+#box-pcontacto #telefone{
+	width: 125px;
+	margin-right: 6px;
+}
+#box-pcontacto #concelho{
+	width: 200px;
+}
+
+/* BOX PEDIDO PROTOCOLO */
+#box-pedidoProtocolo{
+	height: 480px;
+	padding: 10px;
+	background:#ededed;
+	border: 1px solid #d3d3d1;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 2px #d3d3d1;
+	-moz-box-shadow: 0px 0px 2px #d3d3d1;
+	box-shadow: 0px 0px 2px #d3d3d1;
+}
+
+
+#box-pedidoProtocolo #box-pedidoProtocolo-header{
+	width: 100%;
+	height: 60px;
+	margin-bottom: 4px;
+	border-bottom: 1px solid #d3d3d1;
+}
+
+#box-pedidoProtocolo #box-pedidoProtocolo-header h2{
+	font-size: 22px;
+	line-height: 20px;
+	padding: 5px 0px;
+	text-transform: uppercase;
+}
+
+#box-pedidoProtocolo #closeBtn {
+	background-image: url('/assets/css/images/bt_close.png');
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+	height: 35px;
+	width: 35px;
+}
+
+#box-pedidoProtocolo h3 {
+	padding: 12px 0px 6px 12px;
+	font-size: 20px;
+}
+
+#box-pedidoProtocolo .ui-input-style1{
+	height: 30px;
+	line-height:26px;
+}
+
+#box-pedidoProtocolo select.ui-input-style1{
+	height: 32px;
+	line-height:22px;
+	padding: 5px 10px !important;
+}
+
+#box-pedidoProtocolo label{
+	display:-moz-inline-stack; /* FF2 fix coz it does not support inline-block */
+	display:inline-block; /* supported by FF3+ and IE8+ */
+	zoom:1; *display:inline; /*  IE6 & IE7 hack coz they do not support inline-block (zoom trigger hasLayout and * target IE6/7) */
+	width: 140px;
+	padding-right: 10px;
+	text-align:right;
+}
+
+#box-pedidoProtocolo-bottom{
+	position: relative;
+}
+
+
+#box-pedidoProtocolo-check{
+	position: relative;
+	display:-moz-inline-stack; /* FF2 fix coz it does not support inline-block */
+	display:inline-block; /* supported by FF3+ and IE8+ */
+	zoom:1; *display:inline; /*  IE6 & IE7 hack coz they do not support inline-block (zoom trigger hasLayout and * target IE6/7) */
+
+	width: 540px; /*500*/
+	height: 54px; /*54*/
+	vertical-align: bottom;
+}
+
+#box-pedidoProtocolo-check p#box-pedidoProtocolo-error-list{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding: 0px;
+	color: #f00;
+}
+
+#send-proposta{
+	position: absolute;
+	bottom: 0px;
+	right: 5px;
+	vertical-align: bottom;
+}
+
+.box-pedidoProtocolo-bottom{
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+
+#box-pedidoProtocolo-result{
+	display: none;
+}
+
+#box-pedidoProtocolo-result h3 {
+	padding: 32px 0px 20px 12px;
+	font-size: 32px;
+}
+#box-pedidoProtocolo-result p {
+	padding: 8px 12px 8px 12px;
+}
+
+#box-pedidoProtocolo-result button {
+	margin: 4px 0px 0px 12px;
+}
+
+#submit-consent{
+	min-width: 85px;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: normal;
+	margin-left: 4px;
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: lowercase;
+	vertical-align: middle;
+	text-align: center;
+	zoom: 1;
+}
+
+#form_rgpd_consent p{
+	padding-bottom: 0.6rem;
+}

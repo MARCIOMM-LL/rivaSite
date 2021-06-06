@@ -1,0 +1,430 @@
+
+.categoria{
+	display:block;
+	margin:0 auto;
+	height:100vh;
+	min-height:76.8rem;
+	background-size:cover;
+	text-align:left;
+	padding:13rem 0rem 0rem 15rem;
+}
+
+#categoria_conteudo{
+	display:inline-block;
+	height:100vh;
+	text-align:right;
+	background:#fff;
+	vertical-align:top;
+	width:50rem;
+	padding:0rem 5rem;	
+}
+
+#categoria_conteudo h2{
+	font-size:2.5rem;
+	line-height:2.8rem;
+	text-align:left;
+	padding: 0rem 0rem 3rem 0rem;
+	color:#28539f;
+}
+
+#categoria_conteudo h2 span{
+	font-size:1.7rem;
+	line-height:2rem;	
+	display:block;
+	text-align:left;
+	color:#28539f;
+	text-transform:none;
+	font-weight:400;
+}
+
+#categoria_conteudo p{
+	font-size:1.7rem;
+	line-height:2rem;	
+	display:block;
+	color:#28539f;
+	text-transform:none;
+	font-weight:400;
+}
+
+#texto_pontos_fortes p{
+	font-size:2rem;
+	line-height:2.5rem;
+	color:#556271;
+}
+
+
+#titulo_distingue h2{
+	text-align:left;
+	padding: 4.5rem 0rem 3rem 4.5rem;
+}
+
+#titulo_distingue span{
+	display:block;
+	text-align:left;
+	font-size:1.8rem;
+	font-weight:600;
+}
+
+#titulo_distingue p{
+	display:block;
+	text-align:left;
+	padding-left:4.5rem;
+	font-size:1.2rem;
+	font-weight:200;
+	line-height:2rem;
+}
+
+.categoria-foto{
+	display:inline-block;
+	padding-top:4rem;
+}
+
+#cadeiras{
+	background:url('/images/bg_categoria_cadeiras.jpg') no-repeat top left;
+	background-size:cover;
+}
+
+#secretarias{
+	background:url('/images/bg_categoria_secretarias.jpg') no-repeat top left;
+	background-size:cover;
+}
+
+#mesas_reuniao{
+	background:url('/images/bg_categoria_mesas_reuniao.jpg') no-repeat top left;
+	background-size:cover;
+}
+
+#cacifos{
+	background:url('/images/bg_categoria_cacifos.jpg') no-repeat top left;
+	background-size:cover;
+}
+
+#balcao_recepcao{
+	background:url('/images/bg_categoria_balcao_recepcao.jpg') no-repeat top left;
+	background-size:cover;
+}
+
+#escritorio_completo{
+	background:url('/images/bg_categoria_escolar.jpg') no-repeat top left;
+	background-size:cover;
+}
+
+#armarios{
+	background:url('/images/bg_categoria_armarios.jpg') no-repeat top left;
+	background-size:cover;
+}
+
+#estantes{
+	background:url('/images/bg_categoria_estantes.jpg') no-repeat top left;
+	background-size:cover;
+}
+
+#biombos{
+	background:url('/images/bg_categoria_biombos.jpg') no-repeat top left;
+	background-size:cover;
+}
+
+#beliches{
+	background:url('/images/bg_categoria_beliches.jpg') no-repeat top left;
+	background-size:cover;
+}
+
+#acusticas{
+	background:url('/images/bg_categoria_acusticas.jpg') no-repeat top left;
+	background-size:cover;
+}
+
+#cortica{
+	background:url('/images/bg_categoria_cortica.jpg') no-repeat top left;
+	background-size:cover;
+}
+
+
+
+
+
+
+.distingue_pontos_fortes{
+	padding:3rem 0rem 2rem 0rem;
+	display:inline-block;
+}
+
+.distingue_pontos_fortes h3{
+	font-size:2rem;
+	line-height:2.5rem;
+	font-weight:600;
+	color:#45658a;	
+}
+
+.distingue_pontos_fortes p{
+	color:#45658a;
+    font-size:2rem;
+    line-height: 2rem;
+    text-align: right;
+}
+
+#pf-exportation{
+	background:url('/images/icon-exportation.jpg') no-repeat center right;
+	margin-top:0rem;
+	padding-right:5rem;
+	width:13rem;	
+}
+
+#pf-stock{
+	background:url('/images/icon-stock.jpg') no-repeat center right;
+	padding-right:5rem;
+	width:13rem;
+}
+
+#pf-personnalisation{
+	background:url('/images/icon-personnalisation.jpg') no-repeat center right;
+	padding-right:5rem;
+	width:25rem;	
+}
+
+#pf-fabricant{
+	background:url('/images/icon-fabricant.jpg') no-repeat center right;
+	padding-right:5rem;
+	width:25rem;
+	margin-bottom:4rem;
+}
+
+
+.nome-apartir {
+    padding-top: 2rem;
+    vertical-align: top;
+	color:#28539f;
+	text-align:left;
+}
+
+.nome-elemento {
+    font-size: 2rem;
+    line-height: 1.5rem;
+    padding: 0;
+	display:block;
+    vertical-align: top;
+    font-weight: 300;
+}
+
+.apartirde{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    padding: 0;
+	display:block;
+    vertical-align: top;
+    font-weight: 300;	
+}
+
+.elemento {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 0rem;
+}
+
+.valor-elemento {
+    font-size: 3.5rem;
+	line-height:3.5rem;
+    padding: 0.5rem 0 0 0rem;
+    vertical-align: top;
+    font-weight: 300;
+}
+
+
+
+.nome-apartir-pagina {
+    padding-top: 2rem;
+    vertical-align: top;
+	color:#28539f;
+	text-align:left;
+}
+
+.nome-elemento-pagina {
+    font-size: 2rem;
+    line-height: 1.5rem;
+    padding: 0;
+	display:block;
+    vertical-align: top;
+    font-weight: 300;
+}
+
+.apartirde-pagina{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    padding: 0;
+	display:block;
+    vertical-align: top;
+    font-weight: 300;	
+}
+
+.elemento-pagina {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 0rem;
+}
+
+.valor-elemento-pagina {
+    font-size: 3.5rem;
+	line-height:3.5rem;
+    padding: 0.5rem 0 0 0rem;
+    vertical-align: top;
+    font-weight: 300;
+}
+
+
+.img_nav_travail{
+	display:inline-block;
+	vertical-align:top;
+	width:5rem;
+	height:5rem;
+	margin:0rem 1rem 1rem 0rem;
+}
+
+#img_travail{
+	width:5rem;
+	height:5rem;	
+}
+
+.tit_nav_travail{
+	display:inline-block;
+	vertical-align:top;	
+	width:24rem;
+	height:6rem;
+	margin:0rem 0rem 0rem 0rem;
+	padding-top:1rem;
+}
+
+.tit_nav_travail p{
+	font-size: 1.7rem;
+    line-height: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    color: #00ccff;
+}
+
+.tit_nav_travail span {
+    display: block;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.item_travail{
+	display: inline-block;
+    width: 10rem;
+    height: 10rem;
+    padding: 0rem;
+    background: #fff;
+    text-align: center;
+    margin: 0rem 2rem 2rem 0rem;
+}
+
+.item_travail_pagina{
+	display: inline-block;
+    width: 10rem;
+    height: 10rem;
+    padding: 0rem;
+    background: #fff;
+    text-align: center;
+    margin: 0rem 2rem 2rem 0rem;
+}
+
+#img_gd_travail, #conteudo_travail{
+	display:inline-block;
+	vertical-align:top;
+}
+
+#img_gd_travail{
+	margin-right:2rem;
+}
+
+#conteudo_travail{
+	max-width:36rem;
+}
+
+
+#itens_travail {
+    display: inline-block;
+    max-width: 100rem;
+    vertical-align: top;
+    padding: 17rem 0rem 0rem 1rem;
+}
+
+.item_travail{
+	display:inline-block;
+	width:10rem;
+	height:10rem;
+	padding:0rem;
+	background:#fff;
+	color:#303030;
+    text-align: center;
+	margin:	0rem 1rem 1rem 0rem;
+
+}
+
+.item_travail h4{
+	font-size:1.7rem;
+	line-height:2rem;
+	text-align:center;	
+}
+
+.item_travail p{
+	font-size:1.5rem;
+	line-height:1.7rem;
+	color:#303030;
+	text-align:center;	
+}
+
+#itens_travail h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+}
+
+#itens_travail h2 span {
+    display: block;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 300;
+}
+
+#travail_conteudo{
+	display:inline-block;
+	position:relative;
+	padding-top:21rem;
+	width:33rem;
+}
+
+#travail_conteudo span {
+	display:block;
+	font-size:1.5rem;
+	line-height:1.7rem;	
+	font-weight:300;
+	padding-bottom:1rem;
+	color:#fff;
+}
+
+#travail_conteudo h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+}
+
+#protecao-dados{
+	display: block;
+    margin: 0 auto;
+    height: auto;
+    min-height: 76.8rem;
+    background: #1a1f24;
+    text-align: left;
+    padding: 10% 0rem 0rem 10%;
+}
+
+#protecao-dados h1, #protecao-dados h3{
+	color:#fff;
+	font-size:2rem;
+}
+
+#protecao-dados p{
+	color:#fff;
+	font-size:1.5rem;
+}
+

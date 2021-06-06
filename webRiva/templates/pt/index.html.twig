@@ -1,0 +1,445 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+
+
+    <div id="outer-page-div">
+        <header>
+            <div class="wrapper">
+                <div id="div-menu-mobile">
+                    <a href="#content-menu-mobile" id="hamburger" class="inline">
+                        <span class="top-bar"></span>
+                        <span class="middle-bar"></span>
+                        <span class="bottom-bar"></span>
+                    </a>
+                    <nav id="content-menu-mobile">
+                        <ul id="menu-mobile"><li class="mnu_savoir_faire"><a href="/pt/#experiencia" >grupo riva</a></li><li class="mnu_services"><a href="/pt/#servicos" >serviços</a></li><li class="mnu_produits_moveis"><a href="/pt/produtos-moveis-escritorio" >mobiliário escritório</a></li><li class="mnu_produits_papelaria"><a href="/pt/#papelaria" >papelaria</a></li><li class="mnu_produits_qb"><a href="/pt/#quadros" >quadros brancos</a></li><li class="mnu_produits_vp"><a href="/pt/#videoprojetores" >videoprojetores</a></li><li class="mnu_travail"><a href="/pt/obras-ecco" >obras</a></li><li class="mnu_devis"><a href="/pt/#orcamento" >orçamento</a></li><li class="mnu_contacts"><a href="/pt/#contactos" >contactos</a></li></ul>
+                    </nav>
+                </div>
+                <div id="wrapper-menu-logo">
+                    <a href="/">
+
+                        <div id="content-main-menu-logo">
+                            <img id="img-logo" src="{{ asset('/assets//images/logo_riva.jpg') }}" align="left" alt="Grupo RIVA" title="Grupo RIVA">
+                        </div>
+                    </a>
+                </div>
+                <nav id="content-main-menu">
+                    <div id="menu">
+                        <ul id="main-menu" class="sf-menu"><li class="mnu_savoir_faire"><a href="/pt/#experiencia" >grupo riva</a></li><li class="mnu_services"><a href="/pt/#servicos" >serviços</a></li><li class="mnu_produits_moveis"><a href="/pt/produtos-moveis-escritorio" >mobiliário escritório</a></li><li class="mnu_produits_papelaria"><a href="/pt/#papelaria" >papelaria</a></li><li class="mnu_produits_qb"><a href="/pt/#quadros" >quadros brancos</a></li><li class="mnu_produits_vp"><a href="/pt/#videoprojetores" >videoprojetores</a></li><li class="mnu_travail"><a href="/pt/obras-ecco" >obras</a></li><li class="mnu_devis"><a href="/pt/#orcamento" >orçamento</a></li><li class="mnu_contacts"><a href="/pt/#contactos" >contactos</a></li></ul>
+                    </div>
+                </nav>
+
+            </div>
+        </header>
+        <div class="well" id="well">
+            <div class="panel">
+                <a name="experiencia"></a><div id="savoir_faire">
+                    <div class="conteudo_esq_riva">
+                        <p>O Grupo Riva tem <b>25 anos de experiência</b>, <b>capital 100% Português</b>,
+                            sede com instalações próprias em Portugal com 4000m2.</p>
+
+                        <p>Temos <b>crescimento continuado</b> e <b>abrangência geográfica alargada</b>
+                            para a <b>Europa</b> (França, Espanha,...) e <b>África</b> (Angola, Moçambique,...).</p>
+
+                        <p>Somos <b>fabricantes, comerciantes e distribuidores</b>. Criamos produtos exclusivos,
+                            vendemos e importamos produtos de fornecedores de diferentes mercados,
+                            produtos de múltiplos setores e categorias, para particulares e empresas,
+                            através das nossas lojas online.</p>
+                        <p><br></p>
+                        <div id="links_riva_wrapper">
+                            <div class="links_riva" id="links_riva_office">
+                                <a href="https://www.riva-office.pt" target="_blank">https://www.riva-office.pt</a>
+                            </div>
+                            <div class="links_riva" id="links_riva_mde">
+                                <a href="https://www.mobiliario-de-escritorio.pt" target="_blank">https://www.mobiliario-de-escritorio.pt</a>
+                            </div>
+                            <div class="links_riva" id="links_riva_cacifos">
+                                <a href="https://www.cacifos.pt" target="_blank">https://www.cacifos.pt</a>
+                            </div>
+                            <div class="links_riva" id="links_riva_cadeiras">
+                                <a href="https://www.cadeiras-escritorio.pt" target="_blank">https://www.cadeiras-escritorio.pt</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <a name="servicos"></a><div class="fundo_paineis" id="services">
+                    <div class="conteudo_esq">
+                        <h2>serviços</h2>
+                        <p>Temos garantidas capacidade de produção e de stock. Exportamos para o continente africano, com serviço rápido, profissional e completo desde a compra à entrega.</p><p>Fazemos condições especiais para empresas de importação/exportação, traders e distribuidores.</p>
+                        <a href="#orcamento" class="button-style1" title="peça-nos um orçamento"><span>peça-nos um</span>orçamento</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div id="destaques_slide1">
+                                <div id="conteudo_produits" class="conteudo_esq_produtos">
+                                    <h2>mobiliário</h2>
+                                    <p>todo o mobiliário para o seu escritório</p>
+                                    <a href="#orcamento" class="button-style1" title="peça-nos um orçamento"><span>peça-nos um</span>orçamento</a>
+                                </div>
+                                <div class="textos_destaques">
+                                    <h2>cadeiras e escretárias
+                                        <span>equipe o seu escritório</span></h2>
+                                    <div style="text-align:left"><a href="/produtos-moveis-escritorio" id="botao_escuro" class="button-style1" title="ver cadeiras e secretárias">ver cadeiras e secretárias</a></div>
+
+                                    <div id="link_meio" class="ctg-next">móveis<br>em aço</div><div class="swiper-button-next swiper-button-custom"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="destaques_slide2">
+                                <div id="conteudo_produits" class="conteudo_esq_produtos">
+                                    <h2>mobiliário</h2>
+                                    <p>uma grande variedade de artigos à vossa disposição</p>
+                                    <a href="#orcamento" class="button-style1" title="peça-nos um orçamento"><span>peça-nos um</span>orçamento</a>
+                                </div>
+                                <div class="textos_destaques">
+                                    <h2>móveis em aço
+                                        <span>um material nobre</span></h2>
+                                    <div style="text-align:left"><a href="/produtos-moveis-aco" id="botao_escuro" class="button-style1" title="+ chaises">+ móveis em aço</a></div>
+                                    <div class="swiper-button-prev swiper-button-custom"></div><div class="ctg-prev">cadeiras e escretárias</div>
+                                    <div id="link_meio" class="ctg-next">cacifos<br>vestiários</div><div class="swiper-button-next swiper-button-custom"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="destaques_slide3">
+                                <div id="conteudo_produits" class="conteudo_esq_produtos">
+                                    <h2>produtos</h2>
+                                    <p>uma grande variedade de artigos à vossa disposição</p>
+                                    <a href="#orcamento" class="button-style1" title="peça-nos um orçamento"><span>peça-nos um</span>orçamento</a>
+                                </div>
+                                <div class="textos_destaques">
+                                    <h2>Cacifos vestiários
+                                        <span>tudo no seu lugar</span></h2>
+                                    <div style="text-align:left"><a href="/produtos-cacifos-vestiarios" id="botao_escuro" class="button-style1" title="+ chaises">+ cacifos vestiários</a></div>
+                                    <div class="swiper-button-prev swiper-button-custom"></div><div class="ctg-prev">móveis<br>em aço</div>
+                                    <div id="link_meio" class="ctg-next">artigos<br>em cortiça</div><div class="swiper-button-next swiper-button-custom"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="destaques_slide4">
+                                <div id="conteudo_produits" class="conteudo_esq_produtos">
+                                    <h2>produtos</h2>
+                                    <p>uma grande variedade de artigos à vossa disposição</p>
+                                    <a href="#orcamento" class="button-style1" title="peça-nos um orçamento"><span>peça-nos um</span>orçamento</a>
+                                </div>
+                                <div class="textos_destaques">
+                                    <h2>Artigos em cortiça
+                                        <span>um execelente material polivalente</span></h2>
+                                    <div style="text-align:left"><a href="/produtos-cortica" id="botao_escuro" class="button-style1" title="+ chaises">+ artigos em cortiça</a></div>
+                                    <div class="swiper-button-prev swiper-button-custom"></div><div class="ctg-prev">cacifos<br>vestiários</div>
+                                    <div id="link_meio" class="ctg-next">bibliotecas</div><div class="swiper-button-next swiper-button-custom"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="destaques_slide5">
+                                <div id="conteudo_produits" class="conteudo_esq_produtos">
+                                    <h2>produtos</h2>
+                                    <p>uma grande variedade de artigos à vossa disposição</p>
+                                    <a href="#orcamento" class="button-style1" title="peça-nos um orçamento"><span>peça-nos um</span>orçamento</a>
+                                </div>
+                                <div class="textos_destaques">
+                                    <h2>Bibliotecas
+                                        <span>leitura é fundamental</span></h2>
+                                    <div style="text-align:left"><a href="/produtos-bibliotecas" id="botao_escuro" class="button-style1" title="+ chaises">+ bibliotecas</a></div>
+                                    <div class="swiper-button-prev swiper-button-custom"></div><div class="ctg-prev">artigos<br>em cortiça</div>
+                                    <div id="link_meio" class="ctg-next">hotelaria e restauração</div><div class="swiper-button-next swiper-button-custom"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="destaques_slide6">
+                                <div id="conteudo_produits" class="conteudo_esq_produtos">
+                                    <h2>produtos</h2>
+                                    <p>uma grande variedade de artigos à vossa disposição</p>
+                                    <a href="#orcamento" class="button-style1" title="peça-nos um orçamento"><span>peça-nos um</span>orçamento</a>
+                                </div>
+                                <div class="textos_destaques">
+                                    <h2>Hotelaria e Restauração
+                                        <span>a melhor estadia e refeição</span></h2>
+                                    <div style="text-align:left"><a href="/produtos-hotelaria-restauracao" id="botao_escuro" class="button-style1" title="+ chaises">+ hotelaria e restauração</a></div>
+                                    <div class="swiper-button-prev swiper-button-custom"></div><div class="ctg-prev">bibliotecas</div>
+                                    <div id="link_meio" class="ctg-next">móveis de quarto</div><div class="swiper-button-next swiper-button-custom"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="destaques_slide7">
+                                <div id="conteudo_produits" class="conteudo_esq_produtos">
+                                    <h2>produtos</h2>
+                                    <p>uma grande variedade de artigos à vossa disposição</p>
+                                    <a href="#orcamento" class="button-style1" title="peça-nos um orçamento"><span>peça-nos um</span>orçamento</a>
+                                </div>
+                                <div class="textos_destaques">
+                                    <h2>Móveis de quarto
+                                        <span>repouso e comforto</span></h2>
+                                    <div style="text-align:left"><a href="/produtos-moveis-quarto" id="botao_escuro" class="button-style1" title="+ chaises">+ móveis de quarto</a></div>
+                                    <div class="swiper-button-prev swiper-button-custom"></div><div class="ctg-prev">hotelaria e restauração</div>
+                                    <div id="link_meio" class="ctg-next">móveis espaços comerciais</div><div class="swiper-button-next swiper-button-custom"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="destaques_slide8">
+                                <div id="conteudo_produits" class="conteudo_esq_produtos">
+                                    <h2>produtos</h2>
+                                    <p>uma grande variedade de artigos à vossa disposição</p>
+                                    <a href="#orcamento" class="button-style1" title="peça-nos um orçamento"><span>peça-nos um</span>orçamento</a>
+                                </div>
+                                <div class="textos_destaques">
+                                    <h2>Móveis espaços comerciais
+                                        <span>tenha uma boa refeição</span></h2>
+                                    <div style="text-align:left"><a href="/produtos-moveis-espacos-comerciais" id="botao_escuro" class="button-style1" title="+ chaises">+ móveis espaços comerciais</a></div>
+                                    <div class="swiper-button-prev swiper-button-custom"></div><div class="ctg-prev">móveis de quarto</div>
+                                    <div id="link_meio" class="ctg-next">sinalização<br>em latão</div><div class="swiper-button-next swiper-button-custom"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="destaques_slide9">
+                                <div id="conteudo_produits" class="conteudo_esq_produtos">
+                                    <h2>produtos</h2>
+                                    <p>uma grande variedade de artigos à vossa disposição</p>
+                                    <a href="#orcamento" class="button-style1" title="peça-nos um orçamento"><span>peça-nos um</span>orçamento</a>
+                                </div>
+                                <div class="textos_destaques">
+                                    <h2>Sinalização em latão
+                                        <span>sinalização elegante</span></h2>
+                                    <div style="text-align:left"><a href="/produtos-sinalizacao-latao" id="botao_escuro" class="button-style1" title="+ chaises">+ sinalização em latão</a></div>
+                                    <div class="swiper-button-prev swiper-button-custom"></div><div class="ctg-prev">móveis espaços comerciais</div>
+                                    <div id="link_meio" class="ctg-next">tetos em madeira</div><div class="swiper-button-next swiper-button-custom"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="destaques_slide10">
+                                <div id="conteudo_produits" class="conteudo_esq_produtos">
+                                    <h2>produtos</h2>
+                                    <p>uma grande variedade de artigos à vossa disposição</p>
+                                    <a href="#orcamento" class="button-style1" title="peça-nos um orçamento"><span>peça-nos um</span>orçamento</a>
+                                </div>
+                                <div class="textos_destaques">
+                                    <h2>Tetos em madeira
+                                        <span>uma bela proteção</span></h2>
+                                    <div style="text-align:left"><a href="/produtos-tetos-madeira" id="botao_escuro" class="button-style1" title="+ chaises">+ tetos em madeira</a></div>
+                                    <div class="swiper-button-prev swiper-button-custom"></div><div class="ctg-prev">sinalização<br>em latão</div>
+                                    <div id="link_meio" class="ctg-next">móveis espaços comerciais</div><div class="swiper-button-next swiper-button-custom"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="destaques_slide11">
+                                <div id="conteudo_produits" class="conteudo_esq_produtos">
+                                    <h2>produtos</h2>
+                                    <p>uma grande variedade de artigos à vossa disposição</p>
+                                    <a href="#orcamento" class="button-style1" title="peça-nos um orçamento"><span>peça-nos um</span>orçamento</a>
+                                </div>
+                                <div class="textos_destaques">
+                                    <h2>Armários clássicos em madeira
+                                        <span>um clássico não sai de moda</span></h2>
+                                    <div style="text-align:left"><a href="/produtos-armarios-madeira" id="botao_escuro" class="button-style1" title="+ chaises">+ armários clássicos em madeira</a></div>
+                                    <div class="swiper-button-prev swiper-button-custom"></div><div class="ctg-prev">tetos em madeira</div>
+                                    <div id="link_meio" class="ctg-next">portas em madeira</div><div class="swiper-button-next swiper-button-custom"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="destaques_slide12">
+                                <div id="conteudo_produits" class="conteudo_esq_produtos">
+                                    <h2>produtos</h2>
+                                    <p>uma grande variedade de artigos à vossa disposição</p>
+                                    <a href="#orcamento" class="button-style1" title="peça-nos um orçamento"><span>peça-nos um</span>orçamento</a>
+                                </div>
+                                <div class="textos_destaques">
+                                    <h2>Portas em madeira
+                                        <span>entre por favor</span></h2>
+                                    <div style="text-align:left"><a href="/produtos-portas-madeira" id="botao_escuro" class="button-style1" title="+ chaises">+ portas em madeira</a></div>
+                                    <div class="swiper-button-prev swiper-button-custom"></div><div class="ctg-prev">rmários clássicos em madeira</div>
+                                    <div id="link_meio" class="ctg-next">móveis de escritório</div><div class="swiper-button-next swiper-button-custom"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <a name="quadros"></a><div class="fundo_paineis" id="quadros">
+                    <div class="conteudo_esq">
+                        <h2>quadros brancos</h2>
+                        <p>Temos topo o tipo de Quadros Brancos - Flipchart, Pautado, Planificação, Tático, em Vidro, Combinados, acessórios, cavaletes, limpeza, marcadores... tudo à disposição e com stock garantido e com entrega no continente africano.</p>
+                        <a href="#orcamento" class="button-style1" title="peça-nos um orçamento"><span>peça-nos um</span>orçamento</a>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <a name="papelaria"></a><div class="fundo_paineis" id="papelaria">
+                    <div class="conteudo_esq">
+                        <h2>papelaria</h2>
+                        <p>Papel, papelaria e material de escritório. Envelopes, Arquivo, Escrita, e todos o que necessita para o dia-a-dia no escritório.</p>
+                        <a href="#orcamento" class="button-style1" title="peça-nos um orçamento"><span>peça-nos um</span>orçamento</a>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <a name="videoprojetores"></a><div class="fundo_paineis" id="videoprojetores">
+                    <div class="conteudo_esq">
+                        <h2>videoprojetores</h2>
+                        <p>Projetores de várias marcas (ASUS, ACER, Benq, Canon, Epson, LG, Optoma, Panasonic, Sony, etc), com diferentes montagens para diversos fins, acessórios e suportes.</p>
+                        <a href="#orcamento" class="button-style1" title="peça-nos um orçamento"><span>peça-nos um</span>orçamento</a>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div id="travail_effectue">
+                    <div id="travail_effectue_conteudo" class="conteudo_esq">
+                        <h2>obras</h2>
+                        <p>Apresentamos uma seleção de obras feitas, em diferentes categorias</p>
+                        <a href="#orcamento" class="button-style1" title="peça-nos um orçamento"><span>peça-nos um</span>orçamento</a>
+                    </div>
+                    <div id="itens_travail">
+                        <a href="/obras-ecco"><div class="item_travail">
+                                <img id="img_travail_index" src="{{ asset('/assets/images/travail_index_ecco.jpg') }}">
+                                <p>loja ecco
+                                    <span>(exposição no Porto)</span></p>
+                            </div></a>
+                        <a href="/obras-restaurante-bar-braga"><div class="item_travail">
+                                <img id="img_travail_index" src="{{ asset('/assets/images/travail_index_restaurante_theatro_circo.jpg') }}">
+                                <p>restaurante e bar
+                                    <span>(restaurante em Braga)</span></p>
+                            </div></a>
+                        <a href="/obras-sinalizacao-latao"><div class="item_travail">
+                                <img id="img_travail_index" src="{{ asset('/assets/images/travail_index_sinalizacao_latao.jpg') }}">
+                                <p>signalização em latão
+                                    <span>(varios exemplos)</span></p>
+                            </div></a>
+                        <a href="/obras-espacos-hotelaria-comuns"><div class="item_travail">
+                                <img id="img_travail_index" src="{{ asset('/assets/images/travail_index_hotel_comum.jpg') }}">
+                                <p>espacos comuns hotelaria
+                                    <span>(varios exemplos)</span></p>
+                            </div></a>
+                        <a href="/obras-quarto-hotel"><div class="item_travail">
+                                <img id="img_travail_index" src="{{ asset('/assets/images/travail_index_hotel_quarto.jpg') }}">
+                                <p>quartos de hotel
+                                    <span>(varios exemplos)</span></p>
+                            </div></a>
+                        <a href="/obras-restaurante-hotel"><div class="item_travail">
+                                <img id="img_travail_index" src="{{ asset('/assets/images/travail_index_hotel_restaurante.jpg') }}">
+                                <p>restaurante de hotel
+                                    <span>(varios exemplos)</span></p>
+                            </div></a>
+                        <a href="/obras-bibliotecas"><div class="item_travail">
+                                <img id="img_travail_index" src="{{ asset('/assets/images/travail_index_biblioteque.jpg') }}">
+                                <p>bibliotecas
+                                    <span>(universidade minho)</span></p>
+                            </div></a>
+                        <a href="/obras-cacifos-vestiarios"><div class="item_travail">
+                                <img id="img_travail_index" src="{{ asset('/assets/images/travail_index_casiers.jpg') }}">
+                                <p> cacifos
+                                    <span>(hotel lisboa)</span></p>
+                            </div></a>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <a name="orcamento"></a><div id="devis">
+                    <div id="catalogues_conteudo" class="conteudo_esq">
+                        <h2>orçamento</h2>
+                        <p>Faça-nos um pedido de orçamento, gratuito e sem compromisso.</p>
+
+                    </div>
+                    <div id="box-pcontacto-content">
+                        <form action="" method="post" name="form-pcontacto" id="form-pcontacto">
+                            <input type="hidden" id="current_language" name="current_language" value="pt" />
+                            <div>
+                                <div>
+                                    <span class="required"><input type="text" class="texto_formulario ui-input-style1" title="o seu nome" id="pedido_nome" name="nome" value="" required placeholder="o seu nome"/></span>
+                                </div>
+                                <div>
+                                    <span><input type="text" class="texto_formulario ui-input-style1" title="o seu e-mail" id="pedido_email" name="email" value="" maxlength="120" required placeholder="o seu e-mail"/></span>
+                                </div>
+                                <div>
+                                    <span><input type="text" class="texto_formulario ui-input-style1" title="telefone / telemóvel" id="pedido_telefone" name="telefone" value="" required maxlength="120" placeholder="telefone" /></span>
+                                </div>
+                            </div>
+
+
+
+                            <h3>O seu pedido</h3>
+                            <div>
+                                <textarea class="texto_formulario ui-input-style3" style="padding-top: 10px !important; line-height: 18px;" title="O seu pedido" id="pedido_observacoes" name="observacoes" rows="3" cols="70" ></textarea>
+                            </div>
+
+                            <div class="dataLine">
+                                <p><label><input type="checkbox" name="data_rgpd[privacidade]" id="chkPrivacidade" value="1" required> Eu lei e aceito a <a href="/pt/politica-de-privacidade-da-riva" class="linkExternal">politica de privacidade</a> da RIVA.</label></p>
+                                <p>Eu autorizo o envio pela RIVA de informação e marketing:</p>
+                                <p><span>Email/correio
+									<label><input type="radio" name="data_rgpd[marketing_email]" class="optional_rgpd" value="S" required> Sim</label>
+									<label><input type="radio" name="data_rgpd[marketing_email]" class="optional_rgpd" value="N" required> Não</label>
+									</span>
+
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>telefone/sms
+									<label><input type="radio" name="data_rgpd[marketing_sms]" class="optional_rgpd" value="S" required> Sim</label>
+									<label><input type="radio" name="data_rgpd[marketing_sms]" class="optional_rgpd" value="N" required> Não</label></span>
+                                </p>
+                            </div>
+
+                            <div id="box-pcontacto-bottom">
+                                <div id="box-pcontacto-check">
+                                    <p id=box-pcontacto-error-list></p>
+                                </div><!-- box-pcontacto-check -->
+                                <button type="button" id="send-pcontacto" class="button-style1" title="envie o su pedido"><span>envie o seu</span>pedido</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div id="box-pcontacto-result">
+                        <h3>Obrigado !</h3>
+                        <p>O seu pedido foi enviado. Iremos responder brevemente.</p>
+                        <p><br><br></p>
+                        <button type="button" id="reset-pcontacto" class="button-style4">outro pedido</button>
+                    </div><!-- box-pcontacto-result -->
+
+                </div>
+            </div>
+            <div class="panel">
+                <a name="contactos"></a><div id="contacts">
+                    <div id="contactos_conteudo" class="conteudo_esq">
+                        <h2>Contacte-nos</h2>
+                        <p>Estamos à sua disposição para responder às suas questões</p>
+                        <p><b>Morada</b><br>
+                            Rua Pomar de Marvila, Lote 13<br>
+                            Parque Industrial de Sequeira 4705-629 Braga</p>
+                        <p><b>Telefone</b><br>
+                            +351 253 616 209</p>
+                        <p><b>Whatsapp</b><br>
+                            +351 926 270 292</p>
+                        <p><b>Email<br>
+                                <a href="mailto:orcamentos@riva-office.pt">orcamentos@riva-office.pt</a></p>
+                        <p><b>Apoio ao cliente</b><br>
+                            Segunda a Sexta-feira das 9H30 às 17H30</p>
+                        <br>
+                        <br><br><a href="/ficha_projeto_Ricardo_Vaz.pdf" target="_blank"><img id="apoios-feder" src="{{ asset('/assets//images/apoios-feder.jpg') }}"></a><br><br>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

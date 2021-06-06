@@ -1,0 +1,134 @@
+header#main-header #main-header-submenu{
+	/*background: rgba(45,45,45,0.9);*/
+	background: rgba(0,0,0,0.3);
+	height: 31px;
+}
+
+
+#main-header a#menu-buttom{
+	background: center center no-repeat transparent;
+	background-image: url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADhJREFUeNpi/P//PwOtARMDHQBdLGFBYtMq3BiHT3DRPU4YR4NrNAmPJuHRJDyahEeT8Ii3BCDAAF0WBj5Er5idAAAAAElFTkSuQmCC );
+
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+}
+
+/* Animated Hamburger button */
+
+#hamburger {
+   border: 0px none;
+   display: block;
+   width: 30px;
+   padding: 0.7rem 0.5rem 0.7rem 1rem;
+}
+#hamburger span {
+   background: #fff;
+   display: block;
+   height: 2px;
+   margin: 4px 0;
+}
+
+html.mm-opened #hamburger span.top-bar {
+   transform: rotate( 45deg );
+   top: 8px;
+}
+html.mm-opened #hamburger span.middle-bar {
+   opacity: 0;
+}
+html.mm-opened #hamburger span.bottom-bar {
+   transform: rotate( -45deg );
+   top: -8px;
+}
+html.mm-opened #content-main-menu-logo{
+	display:none;
+/*
+  -ms-transform: scale(0.0); /* IE 9 * /
+  -webkit-transform: scale(0.0); /* Safari 3-8 * /
+  transform: scale(0);
+  width:0;
+  margin: 0;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+*/
+}
+
+
+
+
+#hamburger {
+   overflow: hidden;
+}
+#hamburger span {
+   position: relative;
+   transform: rotate( 0 );
+   top: 0;
+   left: 0;
+   opacity: 1;
+
+   transition: none 0.5s ease;
+   transition-property: transform, top, left, opacity;
+}
+
+html.mm-opened #hamburger span.middle-bar {
+   left: -40px;
+}
+
+/* End Animated Hamburger button */
+
+
+/* overrides mmenu*/
+
+#content-menu-mobile .mm-listview > li > a, #content-menu-mobile .mm-listview > li > span {
+    padding: 6px 10px 6px 16px;
+    margin: 0;
+    color: #fff;
+	    font-size: 2rem;
+}
+
+#content-menu-mobile .mm-listview > li > a span.sf-menu-title {
+    display: block;
+    color: #fff;
+    line-height: 100%;
+    margin-top: -1px;
+    font-style: normal;
+}
+
+#content-menu-mobile .mm-listview > li > a span.sf-menu-subtitle,
+#content-menu-mobile .mm-listview > li > span span.sf-menu-subtitle{
+    display: block;
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 100%;
+    margin-top: -1px;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+#content-menu-mobile .mm-listview > li.menu_nivel2 a {
+	padding-left: 40px;
+
+
+#main-header #link-homepage{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#main-header #header-logotipo{
+	padding: 3px 8px 0px 8px;
+	vertical-align: top;
+}
+
+#main-header #header-sitename{
+	padding: 3px 0px;
+	vertical-align: top;
+}
+
+#main-header #header-sitename span{
+	font-size: 1.5rem;
+	line-height: 38px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+}

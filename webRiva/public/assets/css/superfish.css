@@ -1,0 +1,256 @@
+/*
+#main-menu {
+	width: 100%;
+	height:4.6rem;
+	position: relative;
+    background: #f8f9fb;
+}
+*/
+
+#main-menu.sf-menu > li.menu0.noLink > a,
+#main-menu.sf-menu > li.menu0.noLink > a * {
+	cursor: default;
+}
+#main-menu.sf-menu > li.menu0.noLink > .sf-menu-title a,
+#main-menu.sf-menu > li.menu0.noLink > .sf-menu-title a span,
+#main-menu.sf-menu > li.menu0.noLink > .sf-menu-title a * {
+	cursor: default;
+}
+
+#main-menu.sf-menu > li.menu0.singleLevel > .sf-menu-title a, #main-menu.sf-menu > li.menu0.singleLevel > .sf-menu-title a > * {
+	cursor: pointer;
+}
+
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	vertical-align: top;
+}
+
+.sf-menu {
+	line-height:1.0;
+	height: 100%;
+}
+.sf-menu a {
+	display: inline-block;
+    position: relative;
+    text-decoration: none;
+    zoom: 1;
+}
+
+#main-menu > li > a {
+    padding:4.5rem 0rem 3.3rem 0rem;
+	font-size: 2rem;
+	font-weight:400;
+	color: #fff;
+    text-transform: none;
+}
+
+#main-menu > li > a span.sf-menu-subtitle{
+	display: block;
+	font-size: 1.6rem;
+	font-weight:700;
+	padding-top:0.4rem;
+    text-transform: none;
+}
+
+.sf-menu > li {
+    display: inline-block;
+}
+ul.sf-menu > li {
+	display: inline-block;
+	width: 11rem;
+	height: 100%;
+	margin-right: 0px;
+    padding: 0rem 1rem 0rem 0rem;
+	text-align: left;
+	vertical-align: top;
+	text-shadow:2px 2px #000;
+}
+
+ul.sf-menu > li:hover{
+}
+
+ul.sf-menu > li > a{
+	height: 100%;
+	border-top: transparent 1px solid;
+    z-index: 100;
+}
+ul.sf-menu > li:hover > a{
+    z-index: 1000;
+}
+
+
+.sf-menu > li > ul {
+	display: none;
+	top: -999em;
+	min-width: 22rem;
+	background: #fff;
+}
+
+.sf-menu > li:hover > ul,
+.sf-menu > li.sfHover > ul {
+	display: block;
+	position: relative;
+/*
+	width: auto;
+	min-width: 17%;
+	top: 45px; /* match top ul list item height * /
+	left: inherit;
+*/
+    top: 0px;
+	padding: 0.8rem 0.8rem 2.6rem 0.8rem;
+	z-index: 900;
+
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.sf-menu li ul li{
+	display: block;
+	text-align: left;
+	vertical-align: top;
+
+    font-size: 1.2rem;
+    line-height: 100%;
+}
+
+.sf-menu li ul li p{
+    font-size: 1.2rem;
+    line-height: 1.1rem;
+}
+
+.sf-menu li ul li.listcolumn ul li.menu_nivel1_title, .sf-menu li ul li.menu_nivel1_title {
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+.sf-menu li ul li.listcolumn ul li.menu_nivel1_title:first-child, .sf-menu li ul li.menu_nivel1_title:first-child {
+    margin-top: 0rem;
+}
+
+.sf-menu li ul li.listcolumn ul li.menu_nivel2, .sf-menu li ul li.menu_nivel2 {
+/*
+    padding-left: 1.2rem;
+    margin-bottom: 0.8rem;
+*/
+}
+
+
+.sf-menu li.menu1fullwidth ul li{
+    display: inherit;
+    width: 128rem;
+    margin: 0 auto;
+}
+.sf-menu li ul li.fullwidth{
+    display: inherit;
+    width: 128rem;
+    margin: 0 auto;
+}
+
+.sf-menu li ul li.previewcolumn{
+	width: 22%;
+}
+.sf-menu li ul li.listcolumn{
+	display:-moz-inline-stack; /* FF2 fix coz it does not support inline-block */
+	display:inline-block; /* supported by FF3+ and IE8+ */
+	zoom:1; *display:inline; /*  IE6 & IE7 hack coz they do not support inline-block (zoom trigger hasLayout and * target IE6/7) */
+
+	width: 45%;
+	margin-right: 4%;
+	text-align: left;
+}
+
+.sf-menu li ul li.listcolumn ul li{
+	display:block;
+	margin-bottom: 0.4rem;
+}
+
+.sf-menu li ul li a {
+	padding: 0.6rem 0.4rem;
+}
+
+.sf-menu#main-menu li ul li a:hover {
+	background-color: #084795;
+	color: #fff;
+}
+
+.previewcolumn{
+	padding-top: 3rem;
+}
+.previewcolumn p{
+    text-align: center;
+}
+.previewcolumn p.menutbnimage{
+    padding: 0.6rem 0rem;
+}
+.previewcolumn p.menutbntitle{
+    padding: 1rem 1.2rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.previewcolumn p.menutbndescription{
+    padding: 0rem 3.6rem;
+    font-size: 1.2rem;
+    line-height: 0.8rem;
+}
+
+
+/* FORMATAÇÕES ESPECÍFICAS SAFENOR */
+
+.sf-menu li ul li.listcolumn ul li.menu_nivel2,
+.sf-menu li ul li.menu_nivel2 {
+	padding-left: 1.2rem;
+	margin-bottom: 0.8rem;
+}
+
+
+.sf-menu > li.mnu_savoir_faire {
+    width: 12rem;
+}
+
+.sf-menu > li.mnu_services {
+    width: 10rem;
+}
+
+.sf-menu > li.mnu_produits{
+    width: 11rem;
+}
+
+.sf-menu > li.mnu_produits_moveis{
+    width: 11rem;
+}
+
+.sf-menu > li.mnu_produits_papelaria{
+    width: 11rem;
+}
+
+.sf-menu > li.mnu_produits_qb{
+    width: 10rem;
+}
+
+.sf-menu > li.mnu_produits_vp{
+    width: 17rem;
+}
+
+.sf-menu > li.mnu_travail{
+    width: 7rem;
+}
+
+.sf-menu > li.mnu_catalogues {
+    width: 13rem;
+}
+
+.sf-menu > li.mnu_devis {
+    width: 13rem;
+}
+
+.sf-menu > li.mnu_contacts {
+    width: 11rem;
+}
